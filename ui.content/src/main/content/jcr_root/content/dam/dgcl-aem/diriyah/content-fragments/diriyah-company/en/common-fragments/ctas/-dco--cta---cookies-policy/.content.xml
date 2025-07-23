@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2334e1f2-db0e-4d5e-9999-e006e7351cae">
+    <jcr:content
+        cq:lastReplicated="{Date}2025-07-22T06:35:02.717Z"
+        cq:lastReplicatedBy="afrin.shaik"
+        cq:lastReplicationAction="Activate"
+        jcr:lastModified="{Date}2025-07-17T07:27:40.099Z"
+        jcr:lastModifiedBy="afrin.shaik"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] CTA - Cookies policy"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-17T07:27:40.099Z">
+        <data
+            cq:model="/conf/dgcl-aem/diriyah/settings/dam/cfm/models/-dcc--cta"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                label="Cookies policy"
+                label_x0040_LastModified="{Date}2025-07-17T07:27:39.888Z"
+                link="/cookie-policy"
+                link_x0040_LastModified="{Date}2025-07-17T07:27:39.889Z"
+                target="self"
+                target_x0040_LastModified="{Date}2025-07-17T07:27:39.889Z"
+                type="primary"
+                type_x0040_LastModified="{Date}2025-07-17T07:27:39.888Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="d2ad3234-0f51-44a0-9c9c-e2a28bf22c37"
+                _x0040_string_x0040_model="/conf/Diriyah-Revolution/settings/dam/cfm/models/-dcc--cta"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Cookies policy"
+                string_x0040_link="/cookie-policy"
+                string_x0040_target="self"
+                string_x0040_type="primary"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

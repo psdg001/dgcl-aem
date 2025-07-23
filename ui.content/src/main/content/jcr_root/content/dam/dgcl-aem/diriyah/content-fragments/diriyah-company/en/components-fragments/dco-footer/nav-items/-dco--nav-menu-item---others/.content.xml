@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="14816bac-0382-416c-ab24-532543675d2a">
+    <jcr:content
+        cq:lastReplicated="{Date}2025-07-22T06:34:58.716Z"
+        cq:lastReplicatedBy="afrin.shaik"
+        cq:lastReplicationAction="Activate"
+        cq:name="-dco--nav-menu-item---others"
+        cq:parentPath="/content/dam/dgcl-aem/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-footer/nav-items"
+        jcr:lastModified="{Date}2025-07-23T12:08:09.775+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Nav Menu Item - Others"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-23T12:08:09.775+05:30">
+        <data
+            cq:model="/conf/dgcl-aem/diriyah/settings/dam/cfm/models/-dco--navigation-menu-item"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                childNavigationItems="[/content/dam/dgcl-aem/diriyah/content-fragments/diriyah-company/en/common-fragments/ctas/-dco--cta---diriyah-city-of-earth,/content/dam/dgcl-aem/diriyah/content-fragments/diriyah-company/en/common-fragments/ctas/-dco--cta---dgda,/content/dam/dgcl-aem/diriyah/content-fragments/diriyah-company/en/common-fragments/ctas/-dco--cta---vision-2030,/content/dam/dgcl-aem/diriyah/content-fragments/diriyah-company/en/common-fragments/ctas/-dco--cta---public-investment-fund]"
+                childNavigationItems_x0040_LastModified="{Date}2025-07-23T12:08:09.756+05:30"
+                label="Others"
+                label_x0040_LastModified="{Date}2025-07-17T07:40:06.088Z"
+                link="/others"
+                link_x0040_LastModified="{Date}2025-07-17T07:40:06.088Z"
+                mobileLabel_x0040_LastModified="{Date}2025-07-17T07:36:42.928Z"
+                urlTarget="self"
+                urlTarget_x0040_LastModified="{Date}2025-07-17T07:40:06.089Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="8368169d-04f7-4b8b-b610-1b8ec9307ddb"
+                _x0040_string_x0040_model="/conf/Diriyah-Revolution/settings/dam/cfm/models/-dco--navigation-menu-item"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Others"
+                string_x0040_link="/others"
+                string_x0040_urlTarget="self"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

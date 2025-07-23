@@ -6,6 +6,8 @@
         <exclude pattern="/content/dam/dgcl-aem(/.*)?"/>
         <include pattern="/content/dam/dgcl-aem/jcr:content(/.*)?"/>
     </filter>
+	<filter root="/content/cq:graphql/dgcl-aem" mode="merge"/>
+	<filter root="/content/dam/dgcl-aem/diriyah" mode="merge"/>
     <filter root="/content/dam/dgcl-aem/asset.jpg" mode="merge"/>
     <filter root="/content/experience-fragments/dgcl-aem" mode="merge"/>
 </workspaceFilter>

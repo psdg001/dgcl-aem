@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="5036711d-f815-45fc-82fe-49a18998d110">
+    <jcr:content
+        cq:lastModified="{Date}2025-07-17T07:55:20.180Z"
+        cq:lastModifiedBy="afrin.shaik"
+        cq:lastReplicated="{Date}2025-07-22T10:35:28.934Z"
+        cq:lastReplicatedBy="afrin.shaik"
+        cq:lastReplicationAction="Activate"
+        jcr:lastModified="{Date}2025-07-17T07:55:20.197Z"
+        jcr:lastModifiedBy="afrin.shaik"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] CTA - Get in touch"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-17T06:59:53.531Z">
+        <data
+            cq:model="/conf/dgcl-aem/diriyah/settings/dam/cfm/models/-dcc--cta"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                label="Get in touch"
+                label_x0040_LastModified="{Date}2025-07-17T06:59:53.333Z"
+                link="/get-in-touch"
+                link_x0040_LastModified="{Date}2025-07-17T06:59:53.334Z"
+                target="self"
+                target_x0040_LastModified="{Date}2025-07-17T06:59:53.334Z"
+                type="primary"
+                type_x0040_LastModified="{Date}2025-07-17T06:59:53.333Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="0556367d-3da6-4268-be91-e2d104e0f699"
+                _x0040_string_x0040_model="/conf/Diriyah-Revolution/settings/dam/cfm/models/-dcc--cta"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Get in touch"
+                string_x0040_link="/get-in-touch"
+                string_x0040_target="self"
+                string_x0040_type="primary"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

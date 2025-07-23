@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="747866ef-d5e3-4dec-b007-4f52b96792e9">
+    <jcr:content
+        cq:lastModified="{Date}2025-07-17T07:55:19.492Z"
+        cq:lastModifiedBy="afrin.shaik"
+        cq:lastReplicated="{Date}2025-07-22T10:35:28.378Z"
+        cq:lastReplicatedBy="afrin.shaik"
+        cq:lastReplicationAction="Activate"
+        jcr:lastModified="{Date}2025-07-17T07:55:19.524Z"
+        jcr:lastModifiedBy="afrin.shaik"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] CTA - Privacy policy"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-17T07:26:28.627Z">
+        <data
+            cq:model="/conf/dgcl-aem/diriyah/settings/dam/cfm/models/-dcc--cta"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                label="Privacy policy"
+                label_x0040_LastModified="{Date}2025-07-17T07:26:28.427Z"
+                link="/privacy-policy"
+                link_x0040_LastModified="{Date}2025-07-17T07:26:28.427Z"
+                target="self"
+                target_x0040_LastModified="{Date}2025-07-17T07:26:28.427Z"
+                type="primary"
+                type_x0040_LastModified="{Date}2025-07-17T07:26:28.427Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="c53c37dd-6e1a-437e-8a33-62ca17cb083e"
+                _x0040_string_x0040_model="/conf/Diriyah-Revolution/settings/dam/cfm/models/-dcc--cta"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Privacy policy"
+                string_x0040_link="/privacy-policy"
+                string_x0040_target="self"
+                string_x0040_type="primary"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

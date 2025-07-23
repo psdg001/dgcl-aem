@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <_x002d_dcc--header-component/>
+    <_x002d_dcc--page-metadata/>
+    <_x002d_dcc--page/>
+    <_x002d_dcc--spotlight/>
+    <_x002d_dco--footer-component/>
+    <_x002d_dco--navigation-menu-item/>
+    <_x002d_dcc--cta/>
+    <jcr:content jcr:primaryType="nt:unstructured"/>
+</jcr:root>

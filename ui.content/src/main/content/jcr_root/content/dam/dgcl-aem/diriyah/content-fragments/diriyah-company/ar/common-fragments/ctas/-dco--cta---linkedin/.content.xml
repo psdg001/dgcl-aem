@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="5bfa4250-cb06-4fa2-8d9c-ec7b1a8c1219">
+    <jcr:content
+        cq:lastModified="{Date}2025-07-17T07:55:19.554Z"
+        cq:lastModifiedBy="afrin.shaik"
+        cq:lastReplicated="{Date}2025-07-22T10:35:28.540Z"
+        cq:lastReplicatedBy="afrin.shaik"
+        cq:lastReplicationAction="Activate"
+        jcr:lastModified="{Date}2025-07-17T07:55:19.594Z"
+        jcr:lastModifiedBy="afrin.shaik"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] CTA - Linkedin"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-17T07:33:15.959Z">
+        <data
+            cq:model="/conf/dgcl-aem/diriyah/settings/dam/cfm/models/-dcc--cta"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                label="Linkedin"
+                label_x0040_LastModified="{Date}2025-07-17T07:33:15.747Z"
+                link="/linkedin"
+                link_x0040_LastModified="{Date}2025-07-17T07:33:15.748Z"
+                target="self"
+                target_x0040_LastModified="{Date}2025-07-17T07:33:15.747Z"
+                type="primary"
+                type_x0040_LastModified="{Date}2025-07-17T07:33:15.747Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="e7dc3561-43a1-407d-b354-f685360ac90e"
+                _x0040_string_x0040_model="/conf/Diriyah-Revolution/settings/dam/cfm/models/-dcc--cta"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Linkedin"
+                string_x0040_link="/linkedin"
+                string_x0040_target="self"
+                string_x0040_type="primary"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

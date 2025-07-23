@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="12460364-1f89-417d-ba59-77aa16a121bc">
+    <jcr:content
+        cq:lastModified="{Date}2025-07-17T07:55:19.439Z"
+        cq:lastModifiedBy="afrin.shaik"
+        cq:lastReplicated="{Date}2025-07-22T10:35:28.331Z"
+        cq:lastReplicatedBy="afrin.shaik"
+        cq:lastReplicationAction="Activate"
+        jcr:lastModified="{Date}2025-07-17T07:55:19.481Z"
+        jcr:lastModifiedBy="afrin.shaik"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] CTA - Media"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-17T06:57:36.639Z">
+        <data
+            cq:model="/conf/dgcl-aem/diriyah/settings/dam/cfm/models/-dcc--cta"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                label="Media"
+                label_x0040_LastModified="{Date}2025-07-17T06:57:36.409Z"
+                link="/media"
+                link_x0040_LastModified="{Date}2025-07-17T06:57:36.410Z"
+                target="self"
+                target_x0040_LastModified="{Date}2025-07-17T06:57:36.410Z"
+                type="primary"
+                type_x0040_LastModified="{Date}2025-07-17T06:57:36.409Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="6eff7616-60e5-4569-b89e-0d0566091cc9"
+                _x0040_string_x0040_model="/conf/Diriyah-Revolution/settings/dam/cfm/models/-dcc--cta"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Media"
+                string_x0040_link="/media"
+                string_x0040_target="self"
+                string_x0040_type="primary"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

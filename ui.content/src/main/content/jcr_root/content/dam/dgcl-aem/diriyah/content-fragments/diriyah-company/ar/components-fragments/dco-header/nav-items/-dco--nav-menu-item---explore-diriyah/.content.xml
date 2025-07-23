@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="000dd346-d0b4-4048-902e-a5f86503a286">
+    <jcr:content
+        cq:lastModified="{Date}2025-07-17T11:18:01.300Z"
+        cq:lastModifiedBy="afrin.shaik"
+        cq:lastReplicated="{Date}2025-07-22T10:54:00.199Z"
+        cq:lastReplicatedBy="afrin.shaik"
+        cq:lastReplicationAction="Activate"
+        cq:lastRolledout="{Date}2025-07-17T11:18:01.352Z"
+        cq:lastRolledoutBy="afrin.shaik"
+        cq:name="-dco--nav-menu-item---explore-diriyah"
+        cq:parentPath="/content/dam/dgcl-aem/diriyah/content-fragments/diriyah-company/ar/components-fragments/dco-header/nav-items"
+        jcr:lastModified="{Date}2025-07-23T13:07:50.649+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Nav Menu Item - Explore Diriyah"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-23T13:07:50.649+05:30">
+        <data
+            cq:lastRolledout="{Date}2025-07-17T11:18:01.329Z"
+            cq:lastRolledoutBy="afrin.shaik"
+            cq:model="/conf/dgcl-aem/diriyah/settings/dam/cfm/models/-dco--navigation-menu-item"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                cq:lastRolledout="{Date}2025-07-17T11:18:01.343Z"
+                cq:lastRolledoutBy="afrin.shaik"
+                jcr:mixinTypes="[cq:LiveRelationship,cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                childNavigationItems="[/content/dam/dgcl-aem/diriyah/content-fragments/diriyah-company/ar/common-fragments/ctas/-dco--cta---explore]"
+                childNavigationItems_x0040_LastModified="{Date}2025-07-23T13:07:50.627+05:30"
+                label="Explore Diriyah"
+                label_x0040_LastModified="{Date}2025-07-17T09:54:12.855Z"
+                link="/explore-diriyah"
+                link_x0040_LastModified="{Date}2025-07-17T09:54:12.856Z"
+                mobileLabel="Explore Diriyah"
+                mobileLabel_x0040_LastModified="{Date}2025-07-17T09:54:12.855Z"
+                urlTarget="self"
+                urlTarget_x0040_LastModified="{Date}2025-07-17T09:54:12.856Z"/>
+        </data>
+        <indexedData
+            cq:lastRolledout="{Date}2025-07-17T11:18:01.344Z"
+            cq:lastRolledoutBy="afrin.shaik"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured">
+            <master
+                cq:lastRolledout="{Date}2025-07-17T11:18:01.352Z"
+                cq:lastRolledoutBy="afrin.shaik"
+                jcr:mixinTypes="[cq:LiveRelationship,dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="fdaee456-0350-48d6-b14d-4c6e41d7095f"
+                _x0040_string_x0040_model="/conf/Diriyah-Revolution/settings/dam/cfm/models/-dco--navigation-menu-item"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Explore Diriyah"
+                string_x0040_link="/explore-diriyah"
+                string_x0040_mobileLabel="Explore Diriyah"
+                string_x0040_urlTarget="self"/>
+        </indexedData>
+        <metadata
+            cq:lastRolledout="{Date}2025-07-17T11:18:01.322Z"
+            cq:lastRolledoutBy="afrin.shaik"
+            jcr:mixinTypes="[cq:LiveRelationship,cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related
+            cq:lastRolledout="{Date}2025-07-17T11:18:01.325Z"
+            cq:lastRolledoutBy="afrin.shaik"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
