@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="55d605b7-d360-428c-a0dd-1b9a175853ca">
+    <jcr:content
+        cq:name="dco-nav-menu-item-explore-diriyah"
+        cq:parentPath="/content/dam/diriyah/content-fragments/diriyah-company/ar/components-fragments/dco-header/nav-items"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Nav Menu Item - Explore Diriyah"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-24T12:35:14.409+05:30">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:LiveRelationship,cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                childNavigationItems="[/content/dam/diriyah/content-fragments/diriyah-company/ar/common-fragments/ctas/dco-cta-explore]"
+                childNavigationItems_x0040_LastModified="{Date}2025-07-24T12:35:14.395+05:30"
+                label="Explore Diriyah"
+                label_x0040_LastModified="{Date}2025-07-17T09:54:12.855Z"
+                link="/explore-diriyah"
+                link_x0040_LastModified="{Date}2025-07-17T09:54:12.856Z"
+                mobileLabel="Explore Diriyah"
+                mobileLabel_x0040_LastModified="{Date}2025-07-17T09:54:12.855Z"
+                urlTarget="self"
+                urlTarget_x0040_LastModified="{Date}2025-07-17T09:54:12.856Z"/>
+        </data>
+        <indexedData
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:LiveRelationship,dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="93993745-3420-48a3-a07b-37943eb0cae3"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Explore Diriyah"
+                string_x0040_link="/explore-diriyah"
+                string_x0040_mobileLabel="Explore Diriyah"
+                string_x0040_urlTarget="self"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:LiveRelationship,cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

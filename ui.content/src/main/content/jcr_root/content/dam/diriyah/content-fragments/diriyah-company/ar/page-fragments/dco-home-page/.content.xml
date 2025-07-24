@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c58ea5c2-280f-4e74-96aa-cae2bf1003b1">
+    <jcr:content
+        cq:name="dco-home-page"
+        cq:parentPath="/content/dam/diriyah/content-fragments/diriyah-company/ar/page-fragments"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Home page [ar]"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-24T12:33:32.076+05:30">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dcc-page"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                expireOn="{Date}2025-07-31T14:58:00.000+05:30"
+                expireOn_x0040_LastModified="{Date}2025-07-24T12:33:32.059+05:30"
+                footer="/content/dam/diriyah/content-fragments/diriyah-company/ar/components-fragments/dco-footer/dco-footer"
+                footer_x0040_LastModified="{Date}2025-07-24T12:33:32.058+05:30"
+                header="/content/dam/diriyah/content-fragments/diriyah-company/ar/components-fragments/dco-header/dco-header"
+                header_x0040_LastModified="{Date}2025-07-24T12:33:32.058+05:30"
+                language="ar"
+                language_x0040_LastModified="{Date}2025-07-16T09:28:54.065Z"
+                metadata="/content/dam/diriyah/content-fragments/diriyah-company/ar/common-fragments/dco-home-page-metadata"
+                metadata_x0040_LastModified="{Date}2025-07-24T12:33:32.057+05:30"
+                pageType="root"
+                pageType_x0040_LastModified="{Date}2025-07-16T09:28:54.063Z"
+                path="diriyah"
+                path_x0040_LastModified="{Date}2025-07-16T09:28:54.064Z"
+                publishedOn="{Date}2025-07-15T14:58:00.000+05:30"
+                publishedOn_x0040_LastModified="{Date}2025-07-24T12:33:32.059+05:30"
+                redirectTo_x0040_LastModified="{Date}2025-07-16T09:27:36.341Z"
+                sections="[/content/dam/diriyah/content-fragments/diriyah-company/ar/components-fragments/dco-diriyah-house-spotlight]"
+                sections_x0040_LastModified="{Date}2025-07-24T12:33:32.058+05:30"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="b9084012-527c-4904-9107-418106fd08bc"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dcc-page"
+                _x0040_stringArray_x0040_variations="[]"
+                calendar_x0040_expireOn="{Date}2025-07-31T14:58:00.000+05:30"
+                calendar_x0040_publishedOn="{Date}2025-07-15T14:58:00.000+05:30"
+                string_x0040_language="ar"
+                string_x0040_pageType="root"
+                string_x0040_path="diriyah"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="eb763e07-e65e-46b9-a963-9530826c2c12">
+    <jcr:content
+        cq:name="-dco--nav-menu-item---masterplan"
+        cq:parentPath="/content/dam/diriyah-revolution/ar/component-content-fragment/dco-header/nav-items"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Nav Menu Item - Masterplan"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-17T09:55:40.344Z">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:LiveRelationship,cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                childNavigationItems_x0040_LastModified="{Date}2025-07-17T09:54:58.865Z"
+                label="Masterplan"
+                label_x0040_LastModified="{Date}2025-07-17T09:55:40.143Z"
+                link="/masterplan"
+                link_x0040_LastModified="{Date}2025-07-17T09:55:40.144Z"
+                mobileLabel_x0040_LastModified="{Date}2025-07-17T09:54:58.865Z"
+                urlTarget="self"
+                urlTarget_x0040_LastModified="{Date}2025-07-17T09:55:40.144Z"/>
+        </data>
+        <indexedData
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:LiveRelationship,dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="78d741c9-c429-4f8d-b75d-1c06745c0409"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Masterplan"
+                string_x0040_link="/masterplan"
+                string_x0040_urlTarget="self"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:LiveRelationship,cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

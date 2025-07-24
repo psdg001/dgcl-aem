@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="199e0a0a-d065-4cc5-99cb-64dcce112a55">
+    <jcr:content
+        cq:name="-dco--nav-menu-item---operate"
+        cq:parentPath="/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-header/nav-items"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Nav Menu Item - Operate"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-17T09:57:54.021Z">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                childNavigationItems_x0040_LastModified="{Date}2025-07-17T09:57:33.517Z"
+                label="Operate"
+                label_x0040_LastModified="{Date}2025-07-17T09:57:53.819Z"
+                link="/operate"
+                link_x0040_LastModified="{Date}2025-07-17T09:57:53.819Z"
+                mobileLabel="Operate"
+                mobileLabel_x0040_LastModified="{Date}2025-07-17T09:57:53.819Z"
+                urlTarget="self"
+                urlTarget_x0040_LastModified="{Date}2025-07-17T09:57:53.820Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="08a59f5a-3c15-4606-9df9-4653d036cd40"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Operate"
+                string_x0040_link="/operate"
+                string_x0040_mobileLabel="Operate"
+                string_x0040_urlTarget="self"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

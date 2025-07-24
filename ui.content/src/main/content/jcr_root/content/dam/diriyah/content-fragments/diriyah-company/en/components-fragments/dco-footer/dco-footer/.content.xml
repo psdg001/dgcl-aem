@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="fccaea8b-2caf-40d3-87ca-187faf42b7aa">
+    <jcr:content
+        cq:name="dco-footer"
+        cq:parentPath="/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-footer"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Footer"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-24T12:10:34.979+05:30">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dco-footer-component"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                footerCopyrightText_x0040_LastModified="{Date}2025-07-17T06:42:54.720Z"
+                language="en"
+                language_x0040_LastModified="{Date}2025-07-17T06:53:56.076Z"
+                navigationList="[/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-footer/nav-items/dco-nav-menu-item-about,/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-footer/nav-items/dco-nav-menu-item-conditions,/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-footer/nav-items/dco-nav-menu-item-social,/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-footer/nav-items/dco-nav-menu-item-others]"
+                navigationList_x0040_LastModified="{Date}2025-07-24T12:10:34.962+05:30"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="891d3403-024b-498e-88f0-968f8e2aa8db"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dco-footer-component"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_language="en"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

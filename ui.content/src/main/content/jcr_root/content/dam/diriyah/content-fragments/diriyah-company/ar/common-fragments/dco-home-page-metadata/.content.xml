@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f48cd929-ddcb-4009-aa41-ee775774f54b">
+    <jcr:content        
+        cq:name="dco-home-page-metadata-ar"
+        cq:parentPath="/content/dam/diriyah-revolution/ar/common-content-fragment/ar"       
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Home Page [Metadata] [ar]"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-16T09:21:28.078Z">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dcc-page-metadata"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                canonical_x0040_LastModified="{Date}2025-07-16T09:21:10.961Z"
+                description_x0040_LastModified="{Date}2025-07-16T09:21:10.961Z"
+                keywords_x0040_LastModified="{Date}2025-07-16T09:21:10.961Z"
+                openGraphImage="/content/dam/diriyah-assets/istockphoto-1391369779-612x612.jpg"
+                openGraphImage_x0040_LastModified="{Date}2025-07-16T09:21:27.841Z"
+                openGraphType_x0040_LastModified="{Date}2025-07-16T09:21:10.961Z"
+                openGraphUrl_x0040_LastModified="{Date}2025-07-16T09:21:10.961Z"
+                title="Home Page"
+                title_x0040_LastModified="{Date}2025-07-16T09:21:27.841Z"
+                twitterCard_x0040_LastModified="{Date}2025-07-16T09:21:10.961Z"
+                twitterSite_x0040_LastModified="{Date}2025-07-16T09:21:10.961Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="aa57e5a0-b57e-49eb-9ac9-40661246e9b2"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dcc-page-metadata"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_title="Home Page"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
