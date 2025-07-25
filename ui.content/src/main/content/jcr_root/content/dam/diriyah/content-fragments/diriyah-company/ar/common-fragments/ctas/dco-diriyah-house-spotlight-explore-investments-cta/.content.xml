@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d0d03b2e-ddbf-4fdf-abb9-18134f8e623c">
+    <jcr:content
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Diriyah House Spotlight - Explore investments CTA"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-17T06:12:22.966Z">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dcc-cta"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                label="Explore investments"
+                label_x0040_LastModified="{Date}2025-07-17T06:12:22.755Z"
+                link="/explore-investments"
+                link_x0040_LastModified="{Date}2025-07-17T06:12:22.756Z"
+                target="self"
+                target_x0040_LastModified="{Date}2025-07-17T06:12:22.755Z"
+                type="primary"
+                type_x0040_LastModified="{Date}2025-07-17T06:12:22.755Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="41a67e5f-b212-4cd8-be2e-8624034e7d16"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dcc-cta"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Explore investments"
+                string_x0040_link="/explore-investments"
+                string_x0040_target="self"
+                string_x0040_type="primary"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="dd63b3ee-79d2-4ef5-a2e8-557e7cd2ba72">
+    <jcr:content
+        cq:name="dco-header"
+        cq:parentPath="/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-header"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Header"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-24T12:08:06.790+05:30">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dcc-header-component"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                heroLogo="/content/dam/diriyah-assets/istockphoto-1391369779-612x612.jpg"
+                heroLogo_x0040_LastModified="{Date}2025-07-17T09:39:52.829Z"
+                language="en"
+                language_x0040_LastModified="{Date}2025-07-17T09:39:52.830Z"
+                logoAltText="Diriyah Company Logo"
+                logoAltText_x0040_LastModified="{Date}2025-07-17T09:39:52.829Z"
+                mainMenu="[/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-header/nav-items/dco-nav-menu-item-explore-diriyah,/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-header/nav-items/dco-nav-menu-item-invest,/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-header/nav-items/dco-nav-menu-item-masterplan,/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-header/nav-items/dco-nav-menu-item-operate,/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-header/nav-items/dco-nav-menu-item-residential]"
+                mainMenu_x0040_LastModified="{Date}2025-07-24T12:01:58.001+05:30"
+                primaryCta="/content/dam/diriyah/content-fragments/diriyah-company/en/common-fragments/ctas/dco-cta-get-in-touch"
+                primaryCta_x0040_LastModified="{Date}2025-07-24T12:08:06.774+05:30"
+                rootPathName="Home"
+                rootPathName_x0040_LastModified="{Date}2025-07-17T09:39:52.830Z"
+                searchUrl="/search"
+                searchUrl_x0040_LastModified="{Date}2025-07-17T10:09:50.060Z"
+                stickyLogo="/content/dam/diriyah-assets/the-arena-in-diriyah-saudi-arabia-1024x768.jpg"
+                stickyLogo_x0040_LastModified="{Date}2025-07-17T09:39:52.829Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="08d1601a-fd7d-4e1b-9b80-f0fd560990d9"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dcc-header-component"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_language="en"
+                string_x0040_logoAltText="Diriyah Company Logo"
+                string_x0040_rootPathName="Home"
+                string_x0040_searchUrl="/search"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
