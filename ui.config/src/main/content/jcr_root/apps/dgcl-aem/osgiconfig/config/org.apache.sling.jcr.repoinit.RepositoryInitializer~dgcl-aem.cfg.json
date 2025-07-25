@@ -1,7 +1,0 @@
-{
-    "scripts": [
-        "create path (sling:OrderedFolder) /content/dam/dgcl-aem",
-        "create path (nt:unstructured) /content/dam/dgcl-aem/jcr:content",
-        "set properties on /content/dam/dgcl-aem/jcr:content\n  set cq:conf{String} to /conf/dgcl-aem\n  set jcr:title{String} to \"Diriyah Rev\"\nend"
-    ]
-}

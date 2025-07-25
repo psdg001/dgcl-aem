@@ -8,12 +8,12 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.diriyah</groupId>
-        <artifactId>dgcl-aem</artifactId>
+        <artifactId>diriyah</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>dgcl-aem.dispatcher.ams</artifactId>
+    <artifactId>diriyah.dispatcher.ams</artifactId>
     <name>Diriyah Rev - Dispatcher</name>
     <packaging>pom</packaging>
     <description>HTTP &amp; Dispatcher configurations for Diriyah Rev</description>

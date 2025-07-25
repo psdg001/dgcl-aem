@@ -7,7 +7,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.diriyah</groupId>
-        <artifactId>dgcl-aem</artifactId>
+        <artifactId>diriyah</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -15,7 +15,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>dgcl-aem.ui.apps.structure</artifactId>
+    <artifactId>diriyah.ui.apps.structure</artifactId>
     <packaging>content-package</packaging>
     <name>Diriyah Rev - Repository Structure Package</name>
     <description>
@@ -35,7 +35,7 @@
                     <filters>
                         <!-- /apps root -->
                         <filter><root>/apps</root></filter>
-                        <filter><root>/apps/dgcl-aem</root></filter>
+                        <filter><root>/apps/diriyah</root></filter>
                         <!-- Common overlay roots -->
                                                 <filter><root>/apps/sling</root></filter>
                         <filter><root>/apps/cq</root></filter>
@@ -47,7 +47,7 @@
                         <filter><root>/apps/settings</root></filter>
 
                         <!-- DAM folder root, will be created via repoinit -->
-                        <filter><root>/content/dam/dgcl-aem</root></filter>
+                        <filter><root>/content/dam/diriyah</root></filter>
 
                     </filters>
                 </configuration>

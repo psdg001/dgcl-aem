@@ -19,11 +19,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.diriyah</groupId>
-        <artifactId>dgcl-aem</artifactId>
+        <artifactId>diriyah</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>dgcl-aem.core</artifactId>
+    <artifactId>diriyah.core</artifactId>
     <name>Diriyah Rev - Core</name>
     <description>Core bundle for Diriyah Rev</description>
     <build>

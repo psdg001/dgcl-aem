@@ -23,7 +23,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.diriyah</groupId>
-        <artifactId>dgcl-aem</artifactId>
+        <artifactId>diriyah</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -31,7 +31,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>dgcl-aem.all</artifactId>
+    <artifactId>diriyah.all</artifactId>
     <packaging>content-package</packaging>
     <name>Diriyah Rev - All</name>
     <description>All content package for Diriyah Rev</description>
@@ -56,43 +56,43 @@
                     <embeddeds>
                         <embedded>
                             <groupId>com.diriyah</groupId>
-                            <artifactId>dgcl-aem.ui.apps</artifactId>
+                            <artifactId>diriyah.ui.apps</artifactId>
                             <type>zip</type>
-                            <target>/apps/dgcl-aem-packages/application/install</target>
+                            <target>/apps/diriyah-packages/application/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.diriyah</groupId>
-                            <artifactId>dgcl-aem.core</artifactId>
-                            <target>/apps/dgcl-aem-packages/application/install</target>
+                            <artifactId>diriyah.core</artifactId>
+                            <target>/apps/diriyah-packages/application/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.diriyah</groupId>
-                            <artifactId>dgcl-aem.ui.content</artifactId>
+                            <artifactId>diriyah.ui.content</artifactId>
                             <type>zip</type>
-                            <target>/apps/dgcl-aem-packages/content/install</target>
+                            <target>/apps/diriyah-packages/content/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.diriyah</groupId>
-                            <artifactId>dgcl-aem.ui.config</artifactId>
+                            <artifactId>diriyah.ui.config</artifactId>
                             <type>zip</type>
-                            <target>/apps/dgcl-aem-packages/application/install</target>
+                            <target>/apps/diriyah-packages/application/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.adobe.cq</groupId>
                             <artifactId>core.wcm.components.content</artifactId>
                             <type>zip</type>
-                            <target>/apps/dgcl-aem-vendor-packages/application/install</target>
+                            <target>/apps/diriyah-vendor-packages/application/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.adobe.cq</groupId>
                             <artifactId>core.wcm.components.core</artifactId>
-                            <target>/apps/dgcl-aem-vendor-packages/application/install</target>
+                            <target>/apps/diriyah-vendor-packages/application/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.adobe.cq</groupId>
                             <artifactId>core.wcm.components.config</artifactId>
                             <type>zip</type>
-                            <target>/apps/dgcl-aem-vendor-packages/application/install</target>
+                            <target>/apps/diriyah-vendor-packages/application/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>
@@ -185,19 +185,19 @@
     <dependencies>
         <dependency>
             <groupId>com.diriyah</groupId>
-            <artifactId>dgcl-aem.ui.apps</artifactId>
+            <artifactId>diriyah.ui.apps</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
         <dependency>
             <groupId>com.diriyah</groupId>
-            <artifactId>dgcl-aem.ui.content</artifactId>
+            <artifactId>diriyah.ui.content</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
         <dependency>
             <groupId>com.diriyah</groupId>
-            <artifactId>dgcl-aem.ui.config</artifactId>
+            <artifactId>diriyah.ui.config</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>

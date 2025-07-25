@@ -26,7 +26,7 @@ const CLIENTLIB_DIR = path.join(
   'content',
   'jcr_root',
   'apps',
-  'dgcl-aem',
+  'diriyah',
   'clientlibs'
 );
 
@@ -45,7 +45,7 @@ module.exports = {
     {
       ...libsBaseConfig,
       name: 'clientlib-dependencies',
-      categories: ['dgcl-aem.dependencies'],
+      categories: ['diriyah.dependencies'],
       assets: {
         // Copy entrypoint scripts and stylesheets into the respective ClientLib
         // directories
@@ -64,8 +64,8 @@ module.exports = {
     {
       ...libsBaseConfig,
       name: 'clientlib-site',
-      categories: ['dgcl-aem.site'],
-      dependencies: ['dgcl-aem.dependencies'],
+      categories: ['diriyah.site'],
+      dependencies: ['diriyah.dependencies'],
       assets: {
         // Copy entrypoint scripts and stylesheets into the respective ClientLib
         // directories

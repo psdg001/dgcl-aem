@@ -22,7 +22,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.diriyah</groupId>
-        <artifactId>dgcl-aem</artifactId>
+        <artifactId>diriyah</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,7 +30,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>dgcl-aem.ui.apps</artifactId>
+    <artifactId>diriyah.ui.apps</artifactId>
     <packaging>content-package</packaging>
     <name>Diriyah Rev - UI apps</name>
     <description>UI apps package for Diriyah Rev</description>
@@ -52,12 +52,12 @@
                         <cloudManagerTarget>none</cloudManagerTarget>
                     </properties>
                     <group>com.diriyah</group>
-                    <name>dgcl-aem.ui.apps</name>
+                    <name>diriyah.ui.apps</name>
                     <packageType>application</packageType>
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
                             <groupId>com.diriyah</groupId>
-                            <artifactId>dgcl-aem.ui.apps.structure</artifactId>
+                            <artifactId>diriyah.ui.apps.structure</artifactId>
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
                     <dependencies>
@@ -116,13 +116,13 @@
     <dependencies>
         <dependency>
             <groupId>com.diriyah</groupId>
-            <artifactId>dgcl-aem.core</artifactId>
+            <artifactId>diriyah.core</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.diriyah</groupId>
-            <artifactId>dgcl-aem.ui.frontend</artifactId>
+            <artifactId>diriyah.ui.frontend</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
@@ -130,7 +130,7 @@
 
         <dependency>
             <groupId>com.diriyah</groupId>
-            <artifactId>dgcl-aem.ui.apps.structure</artifactId>
+            <artifactId>diriyah.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
