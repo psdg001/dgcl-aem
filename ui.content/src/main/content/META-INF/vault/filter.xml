@@ -2,10 +2,8 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/diriyah" mode="merge"/>
     <filter root="/content/diriyah" mode="merge"/>
-    <filter root="/content/dam/diriyah" mode="merge">
-        <exclude pattern="/content/dam/diriyah(/.*)?"/>
-        <include pattern="/content/dam/diriyah/jcr:content(/.*)?"/>
-    </filter>
+    <filter root="/content/cq:graphql" mode="merge"/>
+    <filter root="/content/dam/diriyah" mode="merge"/>
     <filter root="/content/dam/diriyah/asset.jpg" mode="merge"/>
     <filter root="/content/experience-fragments/diriyah" mode="merge"/>
 </workspaceFilter>

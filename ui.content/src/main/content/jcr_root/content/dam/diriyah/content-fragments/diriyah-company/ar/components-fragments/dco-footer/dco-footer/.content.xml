@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="19d98f63-54e9-45d2-bc98-db33e839c761">
+    <jcr:content
+        cq:name="dco-footer"
+        cq:parentPath="/content/dam/diriyah/content-fragments/diriyah-company/ar/components-fragments/dco-footer"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Footer"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-24T12:36:10.688+05:30">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dco-footer-component"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:LiveRelationship,cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                footerCopyrightText_x0040_LastModified="{Date}2025-07-17T06:42:54.720Z"
+                language="ar"
+                language_x0040_LastModified="{Date}2025-07-17T07:55:55.520Z"
+                navigationList="[/content/dam/diriyah/content-fragments/diriyah-company/ar/components-fragments/dco-footer/nav-items/dco-nav-menu-item-about,/content/dam/diriyah/content-fragments/diriyah-company/ar/components-fragments/dco-footer/nav-items/dco-nav-menu-item-conditions,/content/dam/diriyah/content-fragments/diriyah-company/ar/components-fragments/dco-footer/nav-items/dco-nav-menu-item-social,/content/dam/diriyah/content-fragments/diriyah-company/ar/components-fragments/dco-footer/nav-items/dco-nav-menu-item-others]"
+                navigationList_x0040_LastModified="{Date}2025-07-24T12:36:10.671+05:30"/>
+        </data>
+        <indexedData
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:LiveRelationship,dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="1bf18fff-1cc6-4170-93d3-8c50c49506a6"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dco-footer-component"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_language="ar"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:LiveRelationship,cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

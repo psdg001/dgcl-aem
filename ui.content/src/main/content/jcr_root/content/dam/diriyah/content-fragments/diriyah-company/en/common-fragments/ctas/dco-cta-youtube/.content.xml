@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a1261ba5-e2f4-45b3-b6d5-1f6bfa960466">
+    <jcr:content
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] CTA - YouTube"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-17T07:34:55.039Z">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dcc-cta"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                label="YouTube"
+                label_x0040_LastModified="{Date}2025-07-17T07:34:54.836Z"
+                link="/youtube"
+                link_x0040_LastModified="{Date}2025-07-17T07:34:54.837Z"
+                target="self"
+                target_x0040_LastModified="{Date}2025-07-17T07:34:54.837Z"
+                type="primary"
+                type_x0040_LastModified="{Date}2025-07-17T07:34:54.836Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="bcdb685d-bcbb-44d1-a46f-24dbd7a25f44"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dcc-cta"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="YouTube"
+                string_x0040_link="/youtube"
+                string_x0040_target="self"
+                string_x0040_type="primary"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

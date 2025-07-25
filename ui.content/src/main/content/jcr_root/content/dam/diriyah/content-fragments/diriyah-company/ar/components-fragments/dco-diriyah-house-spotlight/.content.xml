@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d5370207-bfe3-44cc-a20f-c45e889333c6">
+    <jcr:content
+        cq:name="dco-diriyah-house-spotlight"
+        cq:parentPath="/content/dam/diriyah/content-fragments/diriyah-company/ar/components-fragments"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Diriyah House - Spotlight"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-24T12:33:53.681+05:30">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dcc-spotlight"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                cta="/content/dam/diriyah/content-fragments/diriyah-company/en/common-fragments/ctas/dco-diriyah-house-spotlight-explore-investments-cta"
+                cta_x0040_LastModified="{Date}2025-07-24T12:33:53.668+05:30"
+                descriptionText_x0040_LastModified="{Date}2025-07-17T06:08:39.085Z"
+                spotlightImageDesktop="/content/dam/diriyah-assets/istockphoto-1391369779-612x612.jpg"
+                spotlightImageDesktop_x0040_LastModified="{Date}2025-07-17T06:13:30.875Z"
+                spotlightImageMobile="/content/dam/diriyah-assets/the-arena-in-diriyah-saudi-arabia-1024x768.jpg"
+                spotlightImageMobile_x0040_LastModified="{Date}2025-07-17T06:13:30.875Z"
+                titleRte_x0040_ContentType="text/html"
+                titleRte_x0040_LastModified="{Date}2025-07-17T06:13:30.877Z"
+                titleText="The future to invest in Diriyah starts here"
+                titleText_x0040_LastModified="{Date}2025-07-17T06:13:30.876Z"
+                type="image"
+                type_x0040_LastModified="{Date}2025-07-17T06:13:30.874Z"
+                videoUrl_x0040_LastModified="{Date}2025-07-17T06:08:39.085Z"
+                videoUrlMobile_x0040_LastModified="{Date}2025-07-17T06:08:39.085Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="73afddc3-7206-4a2a-97fb-6835a7521316"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dcc-spotlight"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_titleText="The future to invest in Diriyah starts here"
+                string_x0040_type="image"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

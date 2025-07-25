@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:Folder">
+    <jcr:content
+        dam:noThumbnail="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="\[DCO] Footer"
+        sourcing="false">
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-footer"
+            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="5a8648cf-0485-403e-8f7b-8a185b141ea1">
+    <jcr:content
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] CTA - Vision 2030"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-17T07:43:08.355Z">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dcc-cta"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                label="Vision 2030"
+                label_x0040_LastModified="{Date}2025-07-17T07:43:08.132Z"
+                link="/vision-2030"
+                link_x0040_LastModified="{Date}2025-07-17T07:43:08.133Z"
+                target="self"
+                target_x0040_LastModified="{Date}2025-07-17T07:43:08.133Z"
+                type="primary"
+                type_x0040_LastModified="{Date}2025-07-17T07:43:08.133Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="2a69e3ed-b8fd-4b6b-9ae5-1186076036bf"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dcc-cta"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Vision 2030"
+                string_x0040_link="/vision-2030"
+                string_x0040_target="self"
+                string_x0040_type="primary"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

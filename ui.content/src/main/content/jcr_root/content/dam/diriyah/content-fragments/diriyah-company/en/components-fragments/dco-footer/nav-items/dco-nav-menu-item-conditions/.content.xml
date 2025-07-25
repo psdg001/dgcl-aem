@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3637d27b-d6d4-4f1a-b238-0334f6997117">
+    <jcr:content
+        cq:name="dco-nav-menu-item-conditions"
+        cq:parentPath="/content/dam/diriyah/content-fragments/diriyah-company/en/components-fragments/dco-footer/nav-items"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="\[DCO] Nav Menu Item - Conditions"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-07-24T12:11:37.851+05:30">
+        <data
+            cq:model="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                childNavigationItems="[/content/dam/diriyah/content-fragments/diriyah-company/en/common-fragments/ctas/dco-cta-terms-&amp;-conditions,/content/dam/diriyah/content-fragments/diriyah-company/en/common-fragments/ctas/dco-cta-privacy-policy,/content/dam/diriyah/content-fragments/diriyah-company/en/common-fragments/ctas/dco-cta-cookies-policy]"
+                childNavigationItems_x0040_LastModified="{Date}2025-07-24T12:11:37.834+05:30"
+                label="Conditions"
+                label_x0040_LastModified="{Date}2025-07-17T07:24:46.158Z"
+                link="/conditions"
+                link_x0040_LastModified="{Date}2025-07-17T07:24:46.159Z"
+                mobileLabel="Conditions"
+                mobileLabel_x0040_LastModified="{Date}2025-07-17T07:24:46.159Z"
+                urlTarget="self"
+                urlTarget_x0040_LastModified="{Date}2025-07-17T07:24:46.160Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="5ebf2aa8-0d19-4054-8e05-0fc987f8d010"
+                _x0040_string_x0040_model="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_label="Conditions"
+                string_x0040_link="/conditions"
+                string_x0040_mobileLabel="Conditions"
+                string_x0040_urlTarget="self"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
