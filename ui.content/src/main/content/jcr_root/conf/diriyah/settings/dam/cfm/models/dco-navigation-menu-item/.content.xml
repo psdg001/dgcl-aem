@@ -4,6 +4,9 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
+        cq:lastReplicated="{Date}2025-08-01T05:00:34.520Z"
+        cq:lastReplicatedBy="dhananjay.kumar"
+        cq:lastReplicationAction="Activate"
         cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
@@ -121,13 +124,6 @@
                 </content>
             </cq:dialog>
         </model>
-        <change-register jcr:primaryType="nt:unstructured">
-            <_x0031_753339500522
-                jcr:primaryType="nt:unstructured"
-                changePath="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item/jcr:content/model/cq:dialog/content/items/1752668927670"
-                elementPath="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item/jcr:content/model/cq:dialog/content/items/1752668927670"
-                modelChangeType="MODEL_FIELD_REMOVED"
-                modelPath="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item"/>
-        </change-register>
+        <change-register jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

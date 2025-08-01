@@ -4,15 +4,15 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2025-07-29T05:13:46.141Z"
+        cq:lastModified="{Date}2025-07-30T10:43:57.978Z"
         cq:lastModifiedBy="afrin.shaik"
         cq:lastReplicated="{Date}2025-07-31T10:11:51.800Z"
         cq:lastReplicatedBy="afrin.shaik"
         cq:lastReplicationAction="Activate"
-        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/dcc-cta/jcr:content/model"
+        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/-dcc--card/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
-        jcr:title="\[DCC] CTA"
+        jcr:title="\[DCC] Media Slide"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default"
         status="enabled">
@@ -27,78 +27,78 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2025-07-29T05:13:46.141Z"
+                    jcr:lastModified="{Date}2025-07-30T10:43:57.978Z"
                     jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
                         maxGeneratedOrder="20">
-                        <_x0031_752669430317
+                        <_x0031_753789562600
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Label"
+                            fieldLabel="Title"
                             listOrder="1"
                             maxlength="255"
                             metaType="text-single"
-                            name="label"
+                            name="title"
                             renderReadOnly="false"
+                            required="on"
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752669430317>
-                        <_x0031_752669448197
+                        </_x0031_753789562600>
+                        <_x0031_753779720459
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                            emptyOption="{Boolean}true"
-                            fieldLabel="Type"
-                            listOrder="6"
-                            metaType="enumeration"
-                            name="type"
+                            sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
+                            cfm-element="Description"
+                            checked="false"
+                            default-mime-type="text/html"
+                            listOrder="2"
+                            metaType="text-multi"
+                            name="description"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            valueType="string">
-                            <optionsmultifield jcr:primaryType="nt:unstructured">
-                                <item0
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Primary"
-                                    fieldValue="primary"/>
-                                <item1
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="secondary"
-                                    fieldValue="secondary"/>
-                            </optionsmultifield>
-                            <datasource
+                            valueType="string/multiline"/>
+                        <_x0031_753780193712
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                            allowNew="{Boolean}true"
+                            fieldLabel="CTA"
+                            filter="hierarchy"
+                            fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-cta"
+                            listOrder="9"
+                            metaType="fragment-reference"
+                            name="cta"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            rootPath="/content/dam/diriyah/content-fragments"
+                            showEmptyInReadOnly="true"
+                            valueType="string/content-fragment">
+                            <field
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
-                                variant="default"/>
+                                rootPath="/content/dam/diriyah/content-fragments"/>
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752669448197>
-                        <_x0031_753708204856
+                        </_x0031_753780193712>
+                        <_x0031_753789758547
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
-                            listOrder="4"
-                            metaType="boolean"
-                            name="isExternal"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Desktop Image / Video"
+                            filter="hierarchy"
+                            listOrder="8"
+                            metaType="reference"
+                            name="media"
+                            nameSuffix="contentReference"
                             renderReadOnly="false"
+                            required="on"
+                            rootPath="/content/dam/diriyah/assets/diriyah-company"
                             showEmptyInReadOnly="true"
-                            text="Is External"
-                            valueType="boolean">
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_753708204856>
-                        <_x0031_752669674798
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Link"
-                            listOrder="1"
-                            maxlength="255"
-                            metaType="text-single"
-                            name="link"
-                            renderReadOnly="false"
-                            showEmptyInReadOnly="true"
-                            valueType="string">
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752669674798>
+                            showThumbnail="false"
+                            valueType="string/reference">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_753789758547>
                     </items>
                 </content>
             </cq:dialog>

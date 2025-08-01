@@ -4,6 +4,11 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
+        cq:lastModified="{Date}2025-07-31T11:51:10.137Z"
+        cq:lastModifiedBy="afrin.shaik"
+        cq:lastReplicated="{Date}2025-07-31T10:11:51.800Z"
+        cq:lastReplicatedBy="afrin.shaik"
+        cq:lastReplicationAction="Activate"
         cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/dcc-page/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
@@ -22,6 +27,8 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
+                    jcr:lastModified="{Date}2025-07-31T11:51:10.137Z"
+                    jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
@@ -43,200 +50,16 @@
                             <optionsmultifield jcr:primaryType="nt:unstructured">
                                 <item0
                                     jcr:primaryType="nt:unstructured"
-                                    fieldLabel="About"
-                                    fieldValue="about"/>
-                                <item1
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Al-Diriyah FC"
-                                    fieldValue="alDiriyahFc"/>
-                                <item2
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Article"
-                                    fieldValue="article"/>
-                                <item3
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Bashayer Page"
-                                    fieldValue="bashayerPage"/>
-                                <item4
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Broker Portal Layout"
-                                    fieldValue="brokerPortalLayout"/>
-                                <item5
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Career"
-                                    fieldValue="career"/>
-                                <item6
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Coming Soon"
-                                    fieldValue="comingSoon"/>
-                                <item7
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Construction Updates"
-                                    fieldValue="constructionUpdates"/>
-                                <item8
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Contact Us"
-                                    fieldValue="contactUs"/>
-                                <item9
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Diriyah"
-                                    fieldValue="diriyah"/>
-                                <item10
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Diriyah House"
-                                    fieldValue="diriyahHouse"/>
-                                <item11
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Diriyah Living"
-                                    fieldValue="diriyahLiving"/>
-                                <item12
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Diriyah Living V2"
-                                    fieldValue="diriyahLivingV2"/>
-                                <item13
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Future"
-                                    fieldValue="future"/>
-                                <item14
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="History"
-                                    fieldValue="history"/>
-                                <item15
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Home"
-                                    fieldValue="home"/>
-                                <item16
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Hotel details"
-                                    fieldValue="hotelDetails"/>
-                                <item17
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Hotels"
-                                    fieldValue="hotels"/>
-                                <item18
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Industry"
-                                    fieldValue="industry"/>
-                                <item19
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Invest With Us"
-                                    fieldValue="investWithUs"/>
-                                <item20
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Leasing Opportunities"
-                                    fieldValue="leasingOpportunities"/>
-                                <item21
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Leasing Property Template"
-                                    fieldValue="leasingPropertyTemplate"/>
-                                <item22
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Marketing Consent Withdrawal"
-                                    fieldValue="marketingConsentWithdrawal"/>
-                                <item23
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Masterplan"
-                                    fieldValue="masterplan"/>
-                                <item24
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Media"
-                                    fieldValue="media"/>
-                                <item25
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="News Details"
-                                    fieldValue="newsDetails"/>
-                                <item26
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Newsroom"
-                                    fieldValue="newsroom"/>
-                                <item27
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Offices"
-                                    fieldValue="offices"/>
-                                <item28
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Offices Property"
-                                    fieldValue="officesProperty"/>
-                                <item29
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Offices V2"
-                                    fieldValue="officesV2"/>
-                                <item30
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Onboarding"
-                                    fieldValue="onboarding"/>
-                                <item31
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Our Residences"
-                                    fieldValue="ourResidences"/>
-                                <item32
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Partner Onboarding"
-                                    fieldValue="partnerOnboarding"/>
-                                <item33
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Partner Register"
-                                    fieldValue="partnerRegister"/>
-                                <item34
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Partners"
-                                    fieldValue="partners"/>
-                                <item35
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Portal"
-                                    fieldValue="portal"/>
-                                <item36
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Privacy Policy"
-                                    fieldValue="privacyPolicy"/>
-                                <item37
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Project"
-                                    fieldValue="project"/>
-                                <item38
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Property"
-                                    fieldValue="property"/>
-                                <item39
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Real Estate Broker PreRegister"
-                                    fieldValue="realEstateBrokerPreregister"/>
-                                <item40
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Residence Product Template"
-                                    fieldValue="residenceProductTemplate"/>
-                                <item41
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Retail"
-                                    fieldValue="retail"/>
-                                <item42
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Retail Property"
-                                    fieldValue="retailProperty"/>
-                                <item43
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Retail Temp"
-                                    fieldValue="retailTemp"/>
-                                <item44
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Retail V2"
-                                    fieldValue="retailV2"/>
-                                <item45
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Sign Up"
-                                    fieldValue="signUp"/>
-                                <item46
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Terms and Conditions"
-                                    fieldValue="termsAndConditions"/>
-                                <item47
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Test Armani Page"
-                                    fieldValue="testArmaniPage"/>
-                                <item48
-                                    jcr:primaryType="nt:unstructured"
                                     fieldLabel="Root"
                                     fieldValue="root"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Operate"
+                                    fieldValue="operate"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Hospitality"
+                                    fieldValue="hospitality"/>
                             </optionsmultifield>
                             <datasource
                                 jcr:primaryType="nt:unstructured"
@@ -302,7 +125,7 @@
                             fieldDescription="To re-order contents in the page, drag these sections to the order you want to see them in the page."
                             fieldLabel="Sections"
                             filter="hierarchy"
-                            fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-spotlight"
+                            fragmentmodelreference="[/conf/diriyah/settings/dam/cfm/models/dcc-spotlight,/conf/diriyah/settings/dam/cfm/models/dco-vmi-interactive-video,/conf/diriyah/settings/dam/cfm/models/dcc-news-carousel,/conf/diriyah/settings/dam/cfm/models/dco-content-card-grid,/conf/diriyah/settings/dam/cfm/models/dco-media-stacking-carousel,/conf/diriyah/settings/dam/cfm/models/dcc-icon-feature-carousel]"
                             listOrder="9"
                             metaType="fragment-reference"
                             name="sections"
@@ -313,7 +136,7 @@
                             <field
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
-                                fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-spotlight"
+                                fragmentmodelreference="[/conf/diriyah/settings/dam/cfm/models/dcc-spotlight,/conf/diriyah/settings/dam/cfm/models/dco-vmi-interactive-video,/conf/diriyah/settings/dam/cfm/models/dcc-news-carousel,/conf/diriyah/settings/dam/cfm/models/dco-content-card-grid,/conf/diriyah/settings/dam/cfm/models/dco-media-stacking-carousel,/conf/diriyah/settings/dam/cfm/models/dcc-icon-feature-carousel]"
                                 name="sections"
                                 renderReadOnly="false">
                                 <granite:data jcr:primaryType="nt:unstructured"/>

@@ -4,15 +4,15 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2025-07-28T11:17:39.118Z"
+        cq:lastModified="{Date}2025-07-28T11:30:34.847Z"
         cq:lastModifiedBy="afrin.shaik"
-        cq:lastReplicated="{Date}2025-07-31T10:11:51.800Z"
+        cq:lastReplicated="{Date}2025-07-28T11:30:44.728Z"
         cq:lastReplicatedBy="afrin.shaik"
         cq:lastReplicationAction="Activate"
-        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/dco-footer-component/jcr:content/model"
+        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/site-configurations/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
-        jcr:title="\[DCO] Footer"
+        jcr:title="Site Configurations"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default"
         status="enabled">
@@ -27,54 +27,109 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2025-07-28T11:17:39.118Z"
+                    jcr:lastModified="{Date}2025-07-28T11:30:34.847Z"
                     jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
                         maxGeneratedOrder="20">
-                        <_x0031_753687778945
+                        <_x0031_753700802767
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/contentreference"
-                            fieldLabel="Footer Logo"
+                            fieldLabel="Background Image"
                             filter="hierarchy"
                             listOrder="8"
                             metaType="reference"
-                            name="footerLogo"
+                            name="backgroundImage"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            required="on"
-                            rootPath="/content/dam/diriyah/assets/diriyah-company"
                             showEmptyInReadOnly="true"
                             showThumbnail="false"
                             valueType="string/reference">
                             <granite:data
                                 jcr:primaryType="nt:unstructured"
                                 thumbnail-validation="cfm.validation.thumbnail.show"/>
-                        </_x0031_753687778945>
-                        <_x0031_752666354870
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Footer Copyright Text"
-                            listOrder="1"
-                            maxlength="255"
-                            metaType="text-single"
-                            name="footerCopyrightText"
-                            renderReadOnly="false"
-                            required="on"
-                            showEmptyInReadOnly="true"
-                            valueType="string">
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752666354870>
-                        <_x0031_752666368339
+                        </_x0031_753700802767>
+                        <_x0031_753700824187
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/select"
                             emptyOption="{Boolean}true"
-                            fieldLabel="Language"
+                            fieldLabel="Themes"
                             listOrder="6"
                             metaType="enumeration"
-                            name="language"
+                            name="themes"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <optionsmultifield jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Theme 1"
+                                    fieldValue="theme1"/>
+                            </optionsmultifield>
+                            <datasource
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
+                                variant="default"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_753700824187>
+                        <_x0031_753701616554
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                            emptyOption="{Boolean}true"
+                            fieldLabel="Styles"
+                            listOrder="6"
+                            metaType="enumeration"
+                            name="styles"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <optionsmultifield jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Font Size"
+                                    fieldValue="fontSize"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    fieldLabel="Font Color"
+                                    fieldValue="fontColor"/>
+                            </optionsmultifield>
+                            <datasource
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
+                                variant="default"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_753701616554>
+                        <_x0031_753701155271
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                            fieldLabel="SEO"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="seo"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string[]">
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                maxlength="255"
+                                name="seo"
+                                renderReadOnly="false">
+                                <granite:data jcr:primaryType="nt:unstructured"/>
+                            </field>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_753701155271>
+                        <_x0031_753701232335
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                            emptyOption="{Boolean}true"
+                            fieldLabel="Supported Languages"
+                            listOrder="6"
+                            metaType="enumeration"
+                            name="supportedLanguages"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string">
@@ -93,79 +148,10 @@
                                 sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
                                 variant="default"/>
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752666368339>
-                        <_x0031_752666413661
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference/multifield"
-                            allowNew="{Boolean}true"
-                            fieldLabel="Navigation List"
-                            filter="hierarchy"
-                            fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item"
-                            listOrder="9"
-                            metaType="fragment-reference"
-                            name="navigationList"
-                            nameSuffix="contentReference"
-                            renderReadOnly="false"
-                            required="on"
-                            showEmptyInReadOnly="true"
-                            valueType="string/content-fragment[]">
-                            <field
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
-                                fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item"
-                                name="navigationList"
-                                renderReadOnly="false">
-                                <granite:data
-                                    jcr:primaryType="nt:unstructured"
-                                    mvmaxitems="4"/>
-                            </field>
-                            <granite:data
-                                jcr:primaryType="nt:unstructured"
-                                mvmaxitems="4"/>
-                        </_x0031_752666413661>
-                        <_x0031_753687699278
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
-                            allowNew="{Boolean}true"
-                            fieldLabel="Email Subscription"
-                            filter="hierarchy"
-                            fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-email-subscription"
-                            listOrder="9"
-                            metaType="fragment-reference"
-                            name="emailSubscription"
-                            nameSuffix="contentReference"
-                            renderReadOnly="false"
-                            required="on"
-                            showEmptyInReadOnly="true"
-                            valueType="string/content-fragment">
-                            <field jcr:primaryType="nt:unstructured"/>
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_753687699278>
-                        <_x0031_753687739740
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
-                            fieldLabel="Footer Bottom Banner"
-                            listOrder="1"
-                            maxlength="255"
-                            metaType="text-single"
-                            name="footerBottomBanner"
-                            renderReadOnly="false"
-                            showEmptyInReadOnly="true"
-                            valueType="string[]">
-                            <field
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                                maxlength="255"
-                                name="footerBottomBanner"
-                                renderReadOnly="false">
-                                <granite:data jcr:primaryType="nt:unstructured"/>
-                            </field>
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_753687739740>
+                        </_x0031_753701232335>
                     </items>
                 </content>
             </cq:dialog>
         </model>
-        <change-register jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>

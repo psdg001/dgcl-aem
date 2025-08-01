@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
+    <jcr:content jcr:primaryType="nt:unstructured"/>
+    <dcc-cta/>
     <dcc-header-component/>
-    <dcc-page-metadata/>
     <dcc-page/>
+    <dcc-page-metadata/>
     <dcc-spotlight/>
     <dco-footer-component/>
     <dco-navigation-menu-item/>
-    <dcc-cta/>
-    <jcr:content jcr:primaryType="nt:unstructured"/>
+    <dcc-email-subscription/>
+    <site-configurations/>
+    <dco-vmi-interactive-video/>
+    <dcc-card/>
+    <dcc-card-with-image/>
+    <dcc-news-carousel/>
+    <dco-content-card-grid/>
+    <dcc-media-slide/>
+    <dco-media-stacking-carousel/>
+    <diriyah-component-content-fragment-model/>
+    <diriyah-image-content-fragment-model/>
+    <diriyah-content-fragment-model/>
+    <dcc-card-without-cta/>
+    <dcc-icon-feature-carousel/>
 </jcr:root>

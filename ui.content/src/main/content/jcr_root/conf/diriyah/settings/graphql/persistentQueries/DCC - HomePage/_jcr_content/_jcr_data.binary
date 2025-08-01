@@ -80,7 +80,7 @@ query{
         ... on _dcc_CtaModel{
           label
           type
-          target
+          isExternal
           link
         }       
       }
@@ -88,7 +88,7 @@ query{
     }
   }
   sections{
-    ... on _dcc_SpotlightComponentModel {
+    ... on _dcc_SpotlightModel {
       type
       spotlightImageDesktop{
         ... on ImageRef{
@@ -112,11 +112,115 @@ query{
       ... on _dcc_CtaModel{
       type
       label
-      target
+      isExternal
       link
       }   
     }
     }   
+    ... on _dco_VmiInteractiveVideoModel{
+      videoUrl
+    }
+    ... on _dco_ContentCardGridModel{
+        image{
+    ... on ImageRef{
+      _path
+     type
+     mimeType
+    }
+  }
+ featuredCards{
+  ... on _dcc_CardModel{
+    title
+   description{
+    plaintext
+  }
+   cta{
+      ... on _dcc_CtaModel{
+        label
+        type
+        link
+        isExternal
+      }
+    }
+  }
+}
+title
+description{
+  plaintext
+}
+cta{
+      ... on _dcc_CtaModel{
+        label
+        type
+        link
+        isExternal
+      }
+    }
+    }
+    ... on _dco_MediaStackingCarouselModel{
+      brandLogo{
+    ... on ImageRef{
+      _path
+     type
+     mimeType
+    }
+  }
+ mediaSlides{
+  ... on _dcc_MediaSlideModel{
+    media{
+      ... on MultimediaRef{
+        _path
+        type
+        format
+      }  
+      ... on ImageRef{
+        type
+       _path
+       mimeType
+      }
+    }
+    title
+   description{
+    plaintext
+  }
+   cta{
+      ... on _dcc_CtaModel{
+        label
+        type
+        link
+        isExternal
+      }
+    }
+  }
+}
+    }
+    ... on _dco_IconFeatureCarouselModel{
+      title
+      description{
+        plaintext
+      }
+      cta{
+      ... on _dcc_CtaModel{
+        label
+        link
+        isExternal
+        type
+      }       
+      }
+     featureIconCards{
+      title
+      description{
+        plaintext
+      }
+      icon{
+        ... on ImageRef{
+          _path
+          type
+          mimeType
+        }
+      }
+    }
+    }
   }
   path
   publishedOn
@@ -125,6 +229,11 @@ query{
   language
   footer{
     language
+    footerLogo{
+      ... on ImageRef{
+        _path
+      }
+    }
     footerCopyrightText
     navigationList{
      ... on _dco_NavigationMenuItemModel{
@@ -136,12 +245,33 @@ query{
         ... on _dcc_CtaModel{
           label
           type
-          target
+          isExternal
           link
         }       
       }
     }
     }
+    emailSubscription{
+      ... on _dcc_EmailSubscriptionModel{
+        title
+        description{
+          plaintext
+        }
+        subscriptionConfirmationMessage
+        emailValidationError
+        placeHolder
+       cta{
+       ... on _dcc_CtaModel{
+          label
+          type
+          isExternal
+          link
+        
+        } 
+       }
+      }
+    }
+   footerBottomBanner
   }
   }}}
  
