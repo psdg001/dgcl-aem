@@ -5,20 +5,8 @@
     ranking="{Long}100">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastModified="{Date}2025-07-30T12:54:10.640Z"
-        cq:lastModifiedBy="afrin.shaik"
-        cq:lastReplicated="{Date}2025-07-30T13:37:27.134Z"
-        cq:lastReplicated_publish="{Date}2025-06-02T06:53:19.047Z"
-        cq:lastReplicated_scene7="{Date}2025-06-02T06:48:27.516Z"
-        cq:lastReplicatedBy="afrin.shaik"
-        cq:lastReplicatedBy_publish="dhananjaya.kumar@publicissapient.com"
-        cq:lastReplicatedBy_scene7="dhananjaya.kumar@publicissapient.com"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
-        cq:lastReplicationAction_scene7="Activate"
         cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/diriyah-image-content-fragment-model/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
-        jcr:mixinTypes="[]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Diriyah image content fragment model"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
@@ -38,8 +26,6 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2025-07-30T12:18:13.173Z"
-                    jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items

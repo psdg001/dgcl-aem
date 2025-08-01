@@ -5,17 +5,6 @@
     ranking="{Long}100">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastModified="{Date}2025-07-30T13:23:21.781Z"
-        cq:lastModifiedBy="afrin.shaik"
-        cq:lastReplicated="{Date}2025-07-30T13:37:27.134Z"
-        cq:lastReplicated_publish="{Date}2025-05-22T06:20:32.945Z"
-        cq:lastReplicated_scene7="{Date}2025-05-22T06:20:32.945Z"
-        cq:lastReplicatedBy="afrin.shaik"
-        cq:lastReplicatedBy_publish="dhananjaya.kumar@publicissapient.com"
-        cq:lastReplicatedBy_scene7="dhananjaya.kumar@publicissapient.com"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
-        cq:lastReplicationAction_scene7="Activate"
         cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/diriyah-component-content-fragment-model/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:mixinTypes="[]"
@@ -38,8 +27,6 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2025-07-30T13:23:21.781Z"
-                    jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
