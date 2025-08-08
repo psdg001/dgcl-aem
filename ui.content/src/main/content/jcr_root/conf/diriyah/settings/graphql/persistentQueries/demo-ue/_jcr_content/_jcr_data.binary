@@ -1,0 +1,36 @@
+{
+  diriyahPageContentFragmentModelByPath(
+    _path: "/content/dam/diriyah/demo-ue/diriyah-home-page-content-fragment"
+  ) {
+    item {
+      _path
+      pageTitle
+    descrpition{
+        plaintext
+      }
+      componentFragmentReference{
+        _path
+        title
+        description1{
+          plaintext
+        }
+        componentImage{
+          _path
+          imageAltText
+          image{
+             ... on ImageRef {
+                _path
+              _authorUrl
+              _publishUrl
+              mimeType
+              type
+              __typename
+              }
+            
+          }
+        }
+        
+      }
+    }
+  }
+}

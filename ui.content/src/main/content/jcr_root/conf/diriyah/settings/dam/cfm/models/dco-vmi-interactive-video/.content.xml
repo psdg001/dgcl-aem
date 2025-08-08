@@ -4,15 +4,15 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2025-08-04T12:44:14.245Z"
+        cq:lastModified="{Date}2025-08-06T06:00:08.730Z"
         cq:lastModifiedBy="afrin.shaik"
-        cq:lastReplicated="{Date}2025-08-05T10:50:25.275Z"
+        cq:lastReplicated="{Date}2025-08-06T06:00:38.390Z"
         cq:lastReplicatedBy="afrin.shaik"
         cq:lastReplicationAction="Activate"
-        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/dcc-spotlight/jcr:content/model"
+        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/-dco--vmi-interactive-video/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
-        jcr:title="\[DCC] Spotlight"
+        jcr:title="\[DCO] VMI Interactive Video"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default"
         status="enabled">
@@ -27,145 +27,99 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2025-08-04T12:44:14.245Z"
+                    jcr:lastModified="{Date}2025-08-06T06:00:08.730Z"
                     jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="22">
-                        <_x0031_754309540738
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                            emptyOption="{Boolean}true"
-                            fieldLabel="Type"
-                            listOrder="6"
-                            metaType="enumeration"
-                            name="type"
-                            renderReadOnly="false"
-                            showEmptyInReadOnly="true"
-                            valueType="string">
-                            <optionsmultifield jcr:primaryType="nt:unstructured">
-                                <item0
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Image"
-                                    fieldValue="image"/>
-                                <item1
-                                    jcr:primaryType="nt:unstructured"
-                                    fieldLabel="Video"
-                                    fieldValue="video"/>
-                            </optionsmultifield>
-                            <datasource
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
-                                variant="default"/>
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_754309540738>
-                        <_x0031_752664741956
+                        maxGeneratedOrder="20">
+                        <_x0031_753962312865
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/contentreference"
-                            fieldLabel="Desktop - Image"
+                            fieldLabel="Main Video"
                             filter="hierarchy"
                             listOrder="8"
                             metaType="reference"
-                            name="spotlightImageDesktop"
+                            name="mainVideo"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            required="on"
+                            rootPath="/content/dam/diriyah/assets/diriyah-company"
                             showEmptyInReadOnly="true"
                             showThumbnail="false"
                             valueType="string/reference">
                             <granite:data
                                 jcr:primaryType="nt:unstructured"
                                 thumbnail-validation="cfm.validation.thumbnail.show"/>
-                        </_x0031_752664741956>
-                        <_x0031_752664763701
+                        </_x0031_753962312865>
+                        <_x0031_753962279609
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/contentreference"
-                            fieldLabel="Mobile - Image"
+                            fieldLabel="GSplat Slide"
                             filter="hierarchy"
                             listOrder="8"
                             metaType="reference"
-                            name="spotlightImageMobile"
+                            name="gsplatSlide"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            required="on"
+                            rootPath="/content/dam/diriyah/assets/diriyah-company"
                             showEmptyInReadOnly="true"
                             showThumbnail="false"
                             valueType="string/reference">
                             <granite:data
                                 jcr:primaryType="nt:unstructured"
                                 thumbnail-validation="cfm.validation.thumbnail.show"/>
-                        </_x0031_752664763701>
-                        <_x0031_754311329434
+                        </_x0031_753962279609>
+                        <_x0031_754287725161
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Desktop - Video"
-                            listOrder="22"
-                            maxlength="255"
-                            metaType="text-single"
-                            name="videoUrl"
-                            renderReadOnly="false"
-                            showEmptyInReadOnly="true"
-                            valueType="string">
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_754311329434>
-                        <_x0031_754311325133
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Mobile - Video"
-                            listOrder="21"
-                            maxlength="255"
-                            metaType="text-single"
-                            name="videoUrlMobile"
-                            renderReadOnly="false"
-                            showEmptyInReadOnly="true"
-                            valueType="string">
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_754311325133>
-                        <_x0031_754307474978
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
-                            cfm-element="Title"
-                            checked="false"
-                            default-mime-type="text/html"
-                            listOrder="2"
-                            metaType="text-multi"
-                            name="titleText"
-                            renderReadOnly="false"
-                            required="on"
-                            showEmptyInReadOnly="true"
-                            valueType="string/multiline"/>
-                        <_x0031_752664958270
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Description Text"
+                            fieldLabel="GSplat Text"
                             listOrder="1"
                             maxlength="255"
                             metaType="text-single"
-                            name="descriptionText"
+                            name="gsplatText"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752664958270>
-                        <_x0031_752664972066
+                        </_x0031_754287725161>
+                        <_x0031_753962375384
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Text Slide"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="textSlide"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_753962375384>
+                        <_x0031_754287752114
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference/multifield"
                             allowNew="{Boolean}true"
-                            fieldLabel="CTA"
+                            fieldLabel="Video Slides"
                             filter="hierarchy"
-                            fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-cta"
+                            fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dco-video-slide"
                             listOrder="9"
                             metaType="fragment-reference"
-                            name="cta"
+                            name="videoSlides"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            valueType="string/content-fragment">
-                            <field jcr:primaryType="nt:unstructured"/>
+                            valueType="string/content-fragment[]">
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                                fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dco-video-slide"
+                                name="videoSlides"
+                                renderReadOnly="false">
+                                <granite:data jcr:primaryType="nt:unstructured"/>
+                            </field>
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752664972066>
+                        </_x0031_754287752114>
                     </items>
                 </content>
             </cq:dialog>

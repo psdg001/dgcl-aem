@@ -17,11 +17,89 @@
         jcr:primaryType="nt:unstructured"
         sling:resourceType="graphql/persistent/query">
         <jcr:content
+            cq:lastReplicated="{Date}2025-08-06T06:05:05.978Z"
+            cq:lastReplicatedBy="afrin.shaik"
+            cq:lastReplicationAction="Activate"
             jcr:data="{Binary}"
+            jcr:lastModified="{Date}2025-08-06T07:07:58.420Z"
             jcr:mimeType="text/html"
             jcr:mixinTypes="[cq:ReplicationStatus]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="graphql/persistent/query/content"/>
     </DCC_x0020_-_x0020_HomePage>
     <jcr:content jcr:primaryType="nt:unstructured"/>
+    <Site_x0020_Configs
+        jcr:created="{Date}2025-07-28T12:02:25.653Z"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="graphql/persistent/query">
+        <jcr:content
+            cq:lastReplicated="{Date}2025-07-30T10:40:06.028Z"
+            cq:lastReplicatedBy="afrin.shaik"
+            cq:lastReplicationAction="Activate"
+            jcr:data="{Binary}"
+            jcr:lastModified="{Date}2025-07-28T12:02:58.132Z"
+            jcr:mimeType="text/html"
+            jcr:mixinTypes="[cq:ReplicationStatus]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="graphql/persistent/query/content"/>
+    </Site_x0020_Configs>
+    <DCC_x0020_-_x0020_Content_x0020_Card_x0020_Grid
+        jcr:created="{Date}2025-07-30T07:08:34.557Z"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="graphql/persistent/query">
+        <jcr:content
+            cq:lastReplicated="{Date}2025-07-30T08:14:47.511Z"
+            cq:lastReplicatedBy="afrin.shaik"
+            cq:lastReplicationAction="Activate"
+            jcr:data="{Binary}"
+            jcr:lastModified="{Date}2025-07-30T08:26:31.673Z"
+            jcr:mimeType="text/html"
+            jcr:mixinTypes="[cq:ReplicationStatus]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="graphql/persistent/query/content"/>
+    </DCC_x0020_-_x0020_Content_x0020_Card_x0020_Grid>
+    <DCC_x0020_-_x0020_Media_x0020_Stacking_x0020_Carousel
+        jcr:created="{Date}2025-07-30T10:43:18.998Z"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="graphql/persistent/query">
+        <jcr:content
+            cq:lastReplicated="{Date}2025-07-30T10:54:11.039Z"
+            cq:lastReplicatedBy="afrin.shaik"
+            cq:lastReplicationAction="Activate"
+            jcr:data="{Binary}"
+            jcr:lastModified="{Date}2025-07-30T12:08:39.672Z"
+            jcr:mimeType="text/html"
+            jcr:mixinTypes="[cq:ReplicationStatus]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="graphql/persistent/query/content"/>
+    </DCC_x0020_-_x0020_Media_x0020_Stacking_x0020_Carousel>
+    <DEMO_x0020_-_x0020_UE
+        jcr:created="{Date}2025-07-30T13:01:10.354Z"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="graphql/persistent/query">
+        <jcr:content
+            cq:lastReplicated="{Date}2025-07-30T13:06:57.235Z"
+            cq:lastReplicatedBy="afrin.shaik"
+            cq:lastReplicationAction="Activate"
+            jcr:data="{Binary}"
+            jcr:lastModified="{Date}2025-07-30T13:59:33.309Z"
+            jcr:mimeType="text/html"
+            jcr:mixinTypes="[cq:ReplicationStatus]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="graphql/persistent/query/content"/>
+    </DEMO_x0020_-_x0020_UE>
+    <demo-ue
+        jcr:created="{Date}2025-07-30T14:00:05.992Z"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="graphql/persistent/query">
+        <jcr:content
+            cq:lastReplicated="{Date}2025-08-01T11:53:05.136Z"
+            cq:lastReplicatedBy="afrin.shaik"
+            cq:lastReplicationAction="Activate"
+            jcr:data="{Binary}"
+            jcr:mimeType="text/html"
+            jcr:mixinTypes="[cq:ReplicationStatus]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="graphql/persistent/query/content"/>
+    </demo-ue>
 </jcr:root>

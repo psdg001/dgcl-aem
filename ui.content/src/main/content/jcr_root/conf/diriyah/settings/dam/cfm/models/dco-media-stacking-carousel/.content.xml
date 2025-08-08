@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Template"
+    allowedPaths="[/content/entities(/.*)?]"
+    ranking="{Long}100">
+    <jcr:content
+        cq:lastModified="{Date}2025-07-30T10:18:58.717Z"
+        cq:lastModifiedBy="afrin.shaik"
+        cq:lastReplicated="{Date}2025-08-05T10:50:25.275Z"
+        cq:lastReplicatedBy="afrin.shaik"
+        cq:lastReplicationAction="Activate"
+        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/-dco--media-stacking-carousel/jcr:content/model"
+        cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="\[DCO] Media Stacking Carousel"
+        sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
+        sling:resourceType="dam/cfm/models/console/components/data/entity/default"
+        status="enabled">
+        <metadata jcr:primaryType="nt:unstructured"/>
+        <model
+            cq:targetPath="/content/entities"
+            jcr:primaryType="cq:PageContent"
+            sling:resourceType="wcm/scaffolding/components/scaffolding"
+            dataTypesConfig="/mnt/overlay/settings/dam/cfm/models/formbuilderconfig/datatypes"
+            maxGeneratedOrder="20">
+            <cq:dialog
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/gui/components/authoring/dialog">
+                <content
+                    jcr:lastModified="{Date}2025-07-30T10:18:58.717Z"
+                    jcr:lastModifiedBy="afrin.shaik"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                    <items
+                        jcr:primaryType="nt:unstructured"
+                        maxGeneratedOrder="20">
+                        <_x0031_753790264304
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Brand Logo"
+                            filter="hierarchy"
+                            listOrder="8"
+                            metaType="reference"
+                            name="brandLogo"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            rootPath="/content/dam/diriyah/assets/diriyah-company"
+                            showEmptyInReadOnly="true"
+                            showThumbnail="false"
+                            valueType="string/reference">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_753790264304>
+                        <_x0031_753790326775
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference/multifield"
+                            allowNew="{Boolean}true"
+                            fieldLabel="Media Slides"
+                            filter="hierarchy"
+                            fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-media-slide"
+                            listOrder="9"
+                            metaType="fragment-reference"
+                            name="mediaSlides"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            valueType="string/content-fragment[]">
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                                fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-media-slide"
+                                name="mediaSlides"
+                                renderReadOnly="false">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    mvmaxitems="3"/>
+                            </field>
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                mvmaxitems="3"/>
+                        </_x0031_753790326775>
+                    </items>
+                </content>
+            </cq:dialog>
+        </model>
+        <change-register jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -4,13 +4,10 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastReplicated="{Date}2025-08-07T07:49:09.957Z"
-        cq:lastReplicatedBy="prabin.prakash"
-        cq:lastReplicationAction="Activate"
-        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/dcc-page-metadata/jcr:content/model"
+        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/-dco--statistics-highlight/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
-        jcr:title="\[DCC] Page MetaData"
+        jcr:title="\[DCO] Statistics Highlight"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default"
         status="enabled">
@@ -30,133 +27,132 @@
                     <items
                         jcr:primaryType="nt:unstructured"
                         maxGeneratedOrder="29">
-                        <_x0031_752653206358
+                        <_x0031_754310773327
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Title"
+                            sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
+                            cfm-element="Paragraph"
+                            checked="false"
+                            default-mime-type="text/html"
                             listOrder="21"
-                            maxlength="255"
-                            metaType="text-single"
-                            name="title"
+                            metaType="text-multi"
+                            name="paragraph"
                             renderReadOnly="false"
+                            required="on"
                             showEmptyInReadOnly="true"
-                            valueType="string">
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752653206358>
-                        <_x0031_752653226725
+                            valueType="string/multiline"/>
+                        <_x0031_754310818104
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Description"
+                            fieldLabel="Stats 1 - Subtitle"
                             listOrder="22"
                             maxlength="255"
                             metaType="text-single"
-                            name="description"
+                            name="stats1Subtitle"
                             renderReadOnly="false"
+                            required="on"
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752653226725>
-                        <_x0031_752653236233
+                        </_x0031_754310818104>
+                        <_x0031_754310829504
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Keywords"
+                            fieldLabel="Stats 1 - Value"
                             listOrder="23"
                             maxlength="255"
                             metaType="text-single"
-                            name="keywords"
+                            name="stats1Value"
                             renderReadOnly="false"
+                            required="on"
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752653236233>
-                        <_x0031_752653255709
+                        </_x0031_754310829504>
+                        <_x0031_754310845823
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Canonical"
+                            fieldLabel="Stats 2 - Subtitle"
                             listOrder="24"
                             maxlength="255"
                             metaType="text-single"
-                            name="canonical"
+                            name="stats2Subtitle"
                             renderReadOnly="false"
+                            required="on"
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752653255709>
-                        <_x0031_752653312257
+                        </_x0031_754310845823>
+                        <_x0031_754310902416
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Twitter Card"
+                            fieldLabel="Stats 2 - Value"
+                            listOrder="27"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="stats2Value"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_754310902416>
+                        <_x0031_754310868289
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Stats 3 - Subtitle"
                             listOrder="25"
                             maxlength="255"
                             metaType="text-single"
-                            name="twitterCard"
+                            name="stats3Subtitle"
                             renderReadOnly="false"
+                            required="on"
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752653312257>
-                        <_x0031_752653328374
+                        </_x0031_754310868289>
+                        <_x0031_754310910143
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Twitter Site"
-                            listOrder="26"
-                            maxlength="255"
-                            metaType="text-single"
-                            name="twitterSite"
-                            renderReadOnly="false"
-                            showEmptyInReadOnly="true"
-                            valueType="string">
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752653328374>
-                        <_x0031_752653374260
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
-                            fieldLabel="Open Graph: Image"
-                            filter="hierarchy"
-                            listOrder="27"
-                            metaType="reference"
-                            name="openGraphImage"
-                            nameSuffix="contentReference"
-                            renderReadOnly="false"
-                            rootPath=""
-                            showEmptyInReadOnly="true"
-                            showThumbnail="false"
-                            valueType="string/reference">
-                            <granite:data
-                                jcr:primaryType="nt:unstructured"
-                                filesize-validation="None"
-                                thumbnail-validation="cfm.validation.thumbnail.show"/>
-                        </_x0031_752653374260>
-                        <_x0031_752653434580
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Open Graph: Type"
+                            fieldLabel="Stats 3 - Value"
                             listOrder="28"
                             maxlength="255"
                             metaType="text-single"
-                            name="openGraphType"
+                            name="stats3Value"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_754310910143>
+                        <_x0031_754310877708
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Stats 4 - Subtitle"
+                            listOrder="26"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="stats4Subtitle"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752653434580>
-                        <_x0031_752653452849
+                        </_x0031_754310877708>
+                        <_x0031_754310925784
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Open Graph: URL"
+                            fieldLabel="Stats 4 - Value"
                             listOrder="29"
                             maxlength="255"
                             metaType="text-single"
-                            name="openGraphUrl"
+                            name="stats4Value"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752653452849>
+                        </_x0031_754310925784>
                     </items>
                 </content>
             </cq:dialog>
         </model>
-        <change-register jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
