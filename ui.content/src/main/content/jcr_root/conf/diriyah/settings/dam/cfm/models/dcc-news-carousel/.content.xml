@@ -4,6 +4,11 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
+        cq:lastModified="{Date}2025-08-05T07:21:50.375Z"
+        cq:lastModifiedBy="afrin.shaik"
+        cq:lastReplicated="{Date}2025-08-05T10:50:25.275Z"
+        cq:lastReplicatedBy="afrin.shaik"
+        cq:lastReplicationAction="Activate"
         cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/-dcc--news-carousel/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
@@ -22,19 +27,21 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
+                    jcr:lastModified="{Date}2025-08-05T07:21:50.375Z"
+                    jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="24">
+                        maxGeneratedOrder="20">
                         <_x0031_753781152470
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference/multifield"
                             allowNew="{Boolean}true"
                             fieldLabel="Feature News Cards"
                             filter="hierarchy"
                             fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-card"
-                            listOrder="23"
+                            listOrder="9"
                             metaType="fragment-reference"
                             name="featureNewsCards"
                             nameSuffix="contentReference"
@@ -42,17 +49,27 @@
                             required="on"
                             rootPath="/content/dam/diriyah/content-fragments"
                             showEmptyInReadOnly="true"
-                            valueType="string/content-fragment">
+                            valueType="string/content-fragment[]">
                             <field
                                 jcr:primaryType="nt:unstructured"
-                                rootPath="/content/dam/diriyah/content-fragments"/>
-                            <granite:data jcr:primaryType="nt:unstructured"/>
+                                sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                                fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-card"
+                                name="featureNewsCards"
+                                renderReadOnly="false"
+                                rootPath="/content/dam/diriyah/content-fragments">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    mvmaxitems="3"/>
+                            </field>
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                mvmaxitems="3"/>
                         </_x0031_753781152470>
                         <_x0031_753781119036
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                             fieldLabel="Title"
-                            listOrder="21"
+                            listOrder="1"
                             maxlength="255"
                             metaType="text-single"
                             name="title"
@@ -68,7 +85,7 @@
                             cfm-element="Description"
                             checked="false"
                             default-mime-type="text/html"
-                            listOrder="22"
+                            listOrder="2"
                             metaType="text-multi"
                             name="description"
                             renderReadOnly="false"
@@ -81,7 +98,7 @@
                             fieldLabel="CTA"
                             filter="hierarchy"
                             fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-cta"
-                            listOrder="24"
+                            listOrder="9"
                             metaType="fragment-reference"
                             name="cta"
                             nameSuffix="contentReference"

@@ -4,6 +4,11 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
+        cq:lastModified="{Date}2025-08-05T10:50:16.445Z"
+        cq:lastModifiedBy="afrin.shaik"
+        cq:lastReplicated="{Date}2025-08-05T10:50:25.275Z"
+        cq:lastReplicatedBy="afrin.shaik"
+        cq:lastReplicationAction="Activate"
         cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/dcc-page/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
@@ -22,6 +27,8 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
+                    jcr:lastModified="{Date}2025-08-05T10:50:16.445Z"
+                    jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
@@ -93,6 +100,23 @@
                             <field jcr:primaryType="nt:unstructured"/>
                             <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_752228694983>
+                        <_x0031_754031715242
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                            allowNew="{Boolean}true"
+                            fieldLabel="Header CTA"
+                            filter="hierarchy"
+                            fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-cta"
+                            listOrder="9"
+                            metaType="fragment-reference"
+                            name="headerCta"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/content-fragment">
+                            <field jcr:primaryType="nt:unstructured"/>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_754031715242>
                         <_x0031_752228761936
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
@@ -118,7 +142,7 @@
                             fieldDescription="To re-order contents in the page, drag these sections to the order you want to see them in the page."
                             fieldLabel="Sections"
                             filter="hierarchy"
-                            fragmentmodelreference="[/conf/diriyah/settings/dam/cfm/models/dcc-spotlight,/conf/diriyah/settings/dam/cfm/models/dco-vmi-interactive-video,/conf/diriyah/settings/dam/cfm/models/dcc-news-carousel,/conf/diriyah/settings/dam/cfm/models/dco-content-card-grid,/conf/diriyah/settings/dam/cfm/models/dco-media-stacking-carousel,/conf/diriyah/settings/dam/cfm/models/dcc-icon-feature-carousel]"
+                            fragmentmodelreference="[/conf/diriyah/settings/dam/cfm/models/dcc-spotlight,/conf/diriyah/settings/dam/cfm/models/dco-vmi-interactive-video,/conf/diriyah/settings/dam/cfm/models/dcc-news-carousel,/conf/diriyah/settings/dam/cfm/models/dco-content-card-grid,/conf/diriyah/settings/dam/cfm/models/dco-media-stacking-carousel,/conf/diriyah/settings/dam/cfm/models/dcc-icon-feature-carousel,/conf/diriyah/settings/dam/cfm/models/dco-multi-visual-carousel,/conf/diriyah/settings/dam/cfm/models/dco-call-out-blocks]"
                             listOrder="9"
                             metaType="fragment-reference"
                             name="sections"
@@ -129,7 +153,7 @@
                             <field
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
-                                fragmentmodelreference="[/conf/diriyah/settings/dam/cfm/models/dcc-spotlight,/conf/diriyah/settings/dam/cfm/models/dco-vmi-interactive-video,/conf/diriyah/settings/dam/cfm/models/dcc-news-carousel,/conf/diriyah/settings/dam/cfm/models/dco-content-card-grid,/conf/diriyah/settings/dam/cfm/models/dco-media-stacking-carousel,/conf/diriyah/settings/dam/cfm/models/dcc-icon-feature-carousel]"
+                                fragmentmodelreference="[/conf/diriyah/settings/dam/cfm/models/dcc-spotlight,/conf/diriyah/settings/dam/cfm/models/dco-vmi-interactive-video,/conf/diriyah/settings/dam/cfm/models/dcc-news-carousel,/conf/diriyah/settings/dam/cfm/models/dco-content-card-grid,/conf/diriyah/settings/dam/cfm/models/dco-media-stacking-carousel,/conf/diriyah/settings/dam/cfm/models/dcc-icon-feature-carousel,/conf/diriyah/settings/dam/cfm/models/dco-multi-visual-carousel,/conf/diriyah/settings/dam/cfm/models/dco-call-out-blocks]"
                                 name="sections"
                                 renderReadOnly="false">
                                 <granite:data jcr:primaryType="nt:unstructured"/>

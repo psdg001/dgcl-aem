@@ -4,15 +4,10 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2025-07-31T09:39:04.106Z"
-        cq:lastModifiedBy="afrin.shaik"
-        cq:lastReplicated="{Date}2025-08-05T10:50:25.275Z"
-        cq:lastReplicatedBy="afrin.shaik"
-        cq:lastReplicationAction="Activate"
-        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/dcc-icon-feature-carousel/jcr:content/model"
+        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/-dcc--card/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
-        jcr:title="\[DCO] Icon Feature Carousel"
+        jcr:title="\[DCO] Multi-Visual Carousel Feature Card"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default"
         status="enabled">
@@ -27,14 +22,12 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2025-07-31T09:39:04.106Z"
-                    jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="20">
-                        <_x0031_753781119036
+                        maxGeneratedOrder="21">
+                        <_x0031_753789562600
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                             fieldLabel="Title"
@@ -47,8 +40,8 @@
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_753781119036>
-                        <_x0031_753781132837
+                        </_x0031_753789562600>
+                        <_x0031_753779720459
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
                             cfm-element="Description"
@@ -60,7 +53,7 @@
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string/multiline"/>
-                        <_x0031_753781219026
+                        <_x0031_753780193712
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
                             allowNew="{Boolean}true"
@@ -72,7 +65,6 @@
                             name="cta"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            required="on"
                             rootPath="/content/dam/diriyah/content-fragments"
                             showEmptyInReadOnly="true"
                             valueType="string/content-fragment">
@@ -80,40 +72,45 @@
                                 jcr:primaryType="nt:unstructured"
                                 rootPath="/content/dam/diriyah/content-fragments"/>
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_753781219026>
-                        <_x0031_753781152470
+                        </_x0031_753780193712>
+                        <_x0031_753789758547
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference/multifield"
-                            allowNew="{Boolean}true"
-                            emptyText="Author minimum 2 cards"
-                            fieldDescription="Author minimum 2 cards"
-                            fieldLabel="Feature icon Cards"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Image"
                             filter="hierarchy"
-                            fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-card-without-cta"
-                            listOrder="9"
-                            metaType="fragment-reference"
-                            name="featureIconCards"
+                            listOrder="8"
+                            metaType="reference"
+                            name="image"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
                             required="on"
-                            rootPath="/content/dam/diriyah/content-fragments"
+                            rootPath="/content/dam/diriyah/assets/diriyah-company"
                             showEmptyInReadOnly="true"
-                            valueType="string/content-fragment[]">
-                            <field
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
-                                emptyText="Author minimum 2 cards"
-                                fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-card-without-cta"
-                                name="featureIconCards"
-                                renderReadOnly="false">
-                                <granite:data
-                                    jcr:primaryType="nt:unstructured"
-                                    mvmaxitems="5"/>
-                            </field>
+                            showThumbnail="false"
+                            valueType="string/reference">
                             <granite:data
                                 jcr:primaryType="nt:unstructured"
-                                mvmaxitems="5"/>
-                        </_x0031_753781152470>
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_753789758547>
+                        <_x0031_754312712139
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Background Image"
+                            filter="hierarchy"
+                            listOrder="21"
+                            metaType="reference"
+                            name="backgroundImage"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            required="on"
+                            rootPath="/content/dam/diriyah/assets/diriyah-company"
+                            showEmptyInReadOnly="true"
+                            showThumbnail="false"
+                            valueType="string/reference">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                thumbnail-validation="cfm.validation.thumbnail.show"/>
+                        </_x0031_754312712139>
                     </items>
                 </content>
             </cq:dialog>

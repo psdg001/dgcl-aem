@@ -4,8 +4,10 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastReplicated="{Date}2025-08-01T05:00:34.520Z"
-        cq:lastReplicatedBy="dhananjay.kumar"
+        cq:lastModified="{Date}2025-08-04T12:44:14.245Z"
+        cq:lastModifiedBy="afrin.shaik"
+        cq:lastReplicated="{Date}2025-08-05T10:50:25.275Z"
+        cq:lastReplicatedBy="afrin.shaik"
         cq:lastReplicationAction="Activate"
         cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/dcc-spotlight/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
@@ -25,12 +27,14 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
+                    jcr:lastModified="{Date}2025-08-04T12:44:14.245Z"
+                    jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="20">
-                        <_x0031_752664690514
+                        maxGeneratedOrder="22">
+                        <_x0031_754309540738
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/select"
                             emptyOption="{Boolean}true"
@@ -56,18 +60,18 @@
                                 sling:resourceType="dam/cfm/admin/components/datasources/optionrendererenumeration"
                                 variant="default"/>
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752664690514>
+                        </_x0031_754309540738>
                         <_x0031_752664741956
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/contentreference"
-                            fieldLabel="Spotlight Image - Desktop"
+                            fieldLabel="Desktop - Image"
                             filter="hierarchy"
                             listOrder="8"
                             metaType="reference"
                             name="spotlightImageDesktop"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            rootPath=""
+                            required="on"
                             showEmptyInReadOnly="true"
                             showThumbnail="false"
                             valueType="string/reference">
@@ -78,14 +82,14 @@
                         <_x0031_752664763701
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/contentreference"
-                            fieldLabel="Spotlight Image - Mobile*"
+                            fieldLabel="Mobile - Image"
                             filter="hierarchy"
                             listOrder="8"
                             metaType="reference"
                             name="spotlightImageMobile"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            rootPath=""
+                            required="on"
                             showEmptyInReadOnly="true"
                             showThumbnail="false"
                             valueType="string/reference">
@@ -93,11 +97,11 @@
                                 jcr:primaryType="nt:unstructured"
                                 thumbnail-validation="cfm.validation.thumbnail.show"/>
                         </_x0031_752664763701>
-                        <_x0031_752664811752
+                        <_x0031_754311329434
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Video URL"
-                            listOrder="1"
+                            fieldLabel="Desktop - Video"
+                            listOrder="22"
                             maxlength="255"
                             metaType="text-single"
                             name="videoUrl"
@@ -105,12 +109,12 @@
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752664811752>
-                        <_x0031_752664822816
+                        </_x0031_754311329434>
+                        <_x0031_754311325133
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Video URL - Mobile"
-                            listOrder="1"
+                            fieldLabel="Mobile - Video"
+                            listOrder="21"
                             maxlength="255"
                             metaType="text-single"
                             name="videoUrlMobile"
@@ -118,30 +122,18 @@
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752664822816>
-                        <_x0031_752664870860
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Title Text"
-                            listOrder="1"
-                            maxlength="255"
-                            metaType="text-single"
-                            name="titleText"
-                            renderReadOnly="false"
-                            showEmptyInReadOnly="true"
-                            valueType="string">
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752664870860>
-                        <_x0031_752664903139
+                        </_x0031_754311325133>
+                        <_x0031_754307474978
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
-                            cfm-element="Title RTE"
+                            cfm-element="Title"
                             checked="false"
                             default-mime-type="text/html"
                             listOrder="2"
                             metaType="text-multi"
-                            name="titleRte"
+                            name="titleText"
                             renderReadOnly="false"
+                            required="on"
                             showEmptyInReadOnly="true"
                             valueType="string/multiline"/>
                         <_x0031_752664958270

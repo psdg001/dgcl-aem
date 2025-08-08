@@ -4,9 +4,6 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastReplicated="{Date}2025-08-01T05:00:34.520Z"
-        cq:lastReplicatedBy="dhananjay.kumar"
-        cq:lastReplicationAction="Activate"
         cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/dco-navigation-menu-item/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
@@ -29,7 +26,7 @@
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="21">
+                        maxGeneratedOrder="20">
                         <_x0031_752668819964
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
@@ -43,19 +40,6 @@
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
                         </_x0031_752668819964>
-                        <_x0031_752668838042
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Mobile Label"
-                            listOrder="1"
-                            maxlength="255"
-                            metaType="text-single"
-                            name="mobileLabel"
-                            renderReadOnly="false"
-                            showEmptyInReadOnly="true"
-                            valueType="string">
-                            <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_752668838042>
                         <_x0031_752668865505
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
@@ -74,7 +58,7 @@
                             sling:resourceType="granite/ui/components/coral/foundation/form/select"
                             emptyOption="{Boolean}true"
                             fieldLabel="Url target"
-                            listOrder="21"
+                            listOrder="6"
                             metaType="enumeration"
                             name="urlTarget"
                             renderReadOnly="false"

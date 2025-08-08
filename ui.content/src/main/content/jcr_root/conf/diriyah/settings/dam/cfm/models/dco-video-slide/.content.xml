@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Template"
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:isDelivered="{Boolean}false"
-        cq:lastModified="{Date}2025-07-30T12:54:10.640Z"
-        cq:lastModifiedBy="afrin.shaik"
-        cq:lastReplicated="{Date}2025-08-01T11:56:53.809Z"
-        cq:lastReplicated_publish="{Date}2025-06-02T06:53:19.047Z"
-        cq:lastReplicated_scene7="{Date}2025-06-02T06:48:27.516Z"
-        cq:lastReplicatedBy="afrin.shaik"
-        cq:lastReplicatedBy_publish="dhananjaya.kumar@publicissapient.com"
-        cq:lastReplicatedBy_scene7="dhananjaya.kumar@publicissapient.com"
-        cq:lastReplicationAction="Activate"
-        cq:lastReplicationAction_publish="Activate"
-        cq:lastReplicationAction_scene7="Activate"
-        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/diriyah-image-content-fragment-model/jcr:content/model"
+        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/-dco--video-slide/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
-        jcr:mixinTypes="[]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Diriyah image content fragment model"
+        jcr:title="\[DCO] Video Slide"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default"
-        isLocked="{Boolean}false"
         status="enabled">
-        <metadata
-            dam:scene7PublishPending="{Boolean}true"
-            jcr:primaryType="nt:unstructured"/>
+        <metadata jcr:primaryType="nt:unstructured"/>
         <model
             cq:targetPath="/content/entities"
             jcr:primaryType="cq:PageContent"
@@ -38,43 +22,42 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2025-07-30T12:18:13.173Z"
-                    jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="21">
-                        <_x0031_747653074428
+                        maxGeneratedOrder="22">
+                        <_x0031_754287605424
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldLabel="Image Alt Text"
-                            listOrder="1"
+                            fieldLabel="Video Text"
+                            listOrder="21"
                             maxlength="255"
                             metaType="text-single"
-                            name="imageAltText"
+                            name="videoText"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string">
                             <granite:data jcr:primaryType="nt:unstructured"/>
-                        </_x0031_747653074428>
-                        <_x0031_753877875085
+                        </_x0031_754287605424>
+                        <_x0031_754287638878
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/contentreference"
-                            fieldLabel="Image"
+                            fieldLabel="Video Url"
                             filter="hierarchy"
-                            listOrder="21"
+                            listOrder="22"
                             metaType="reference"
-                            name="image"
+                            name="videoUrl"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
+                            rootPath="/content/dam/diriyah/assets"
                             showEmptyInReadOnly="true"
                             showThumbnail="false"
                             valueType="string/reference">
                             <granite:data
                                 jcr:primaryType="nt:unstructured"
                                 thumbnail-validation="cfm.validation.thumbnail.show"/>
-                        </_x0031_753877875085>
+                        </_x0031_754287638878>
                     </items>
                 </content>
             </cq:dialog>

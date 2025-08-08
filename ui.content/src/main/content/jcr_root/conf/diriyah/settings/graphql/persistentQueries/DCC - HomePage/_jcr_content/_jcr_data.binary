@@ -1,277 +1,373 @@
-# Welcome to GraphiQL
-#
-# GraphiQL is an in-browser tool for writing, validating, and
-# testing GraphQL queries.
-#
-# Type queries into this side of the screen, and you will see intelligent
-# typeaheads aware of the current GraphQL type schema and live syntax and
-# validation errors highlighted within the text.
-#
-# GraphQL queries typically start with a "{" character. Lines that start
-# with a # are ignored.
-#
-# An example GraphQL query might look like:
-#
-#     {
-#       field(arg: "value") {
-#         subField
-#       }
-#     }
-#
-# Keyboard shortcuts:
-#
-#  Prettify Query:  Shift-Ctrl-P (or press the prettify button above)
-#
-#       Run Query:  Ctrl-Enter (or press the play button above)
-#
-#   Auto Complete:  Ctrl-Space (or just start typing)
-#
 query{
- _dcc_PageByPath (_path:"/content/dam/diriyah/content-fragments/diriyah-company/ar/page-fragments/dco-home-page") {
- item {
-  pageType
-  metadata{
-    ... on _dcc_PageMetadataModel{
-      title
-      description
-      keywords
-      canonical
-      twitterCard
-      twitterSite
-      openGraphUrl
-      openGraphType
-      openGraphImage{
-        ... on ImageRef{
-          _authorUrl
-          _publishUrl
-          width
-          height
-          mimeType
-          type
+  _dcc_PageByPath(
+    _path: "/content/dam/diriyah/content-fragments/diriyah-company/ar/page-fragments/dco-home-page"
+  ) {
+    item {
+      pageType
+      metadata {
+        ... on _dcc_PageMetadataModel {
+          title
+          description
+          keywords
+          canonical
+          twitterCard
+          twitterSite
+          openGraphUrl
+          openGraphType
+          openGraphImage {
+            ... on ImageRef {
+              _authorUrl
+              _publishUrl
+              width
+              height
+              mimeType
+              type
+            }
+          }
         }
       }
-    }
-  }
-  header{
-    heroLogo{
-        ... on ImageRef{
-          _authorUrl
-          _publishUrl
-          mimeType
-        }
-      }
-    stickyLogo{
-        ... on ImageRef{
-          _authorUrl
-          _publishUrl
-          mimeType
-        }
-      }
-    logoAltText
-    rootPathName
-    language
-    mainMenu{
-     ... on _dco_NavigationMenuItemModel{
-      mobileLabel
-      label
-      link
-      urlTarget
-      childNavigationItems{
-        ... on _dcc_CtaModel{
+      headerCta {
+        ... on _dcc_CtaModel {
           label
           type
           isExternal
           link
-        }       
-      }
-    }
-    }
-  }
-  sections{
-    ... on _dcc_SpotlightModel {
-      type
-      spotlightImageDesktop{
-        ... on ImageRef{
-          _authorUrl
-          _publishUrl
-          mimeType
         }
       }
-      spotlightImageMobile{
-        ... on ImageRef{
-          _authorUrl
-          _publishUrl
-          mimeType
+      header {
+        brandLogo {
+          ... on ImageRef {
+            _authorUrl
+            _publishUrl
+            mimeType
+          }
+        }
+        logoAltText
+        rootPathName
+        rootPagePath
+        searchUrl
+        language
+        mainMenu {
+          ... on _dco_NavigationMenuItemModel {
+            label
+            link
+            urlTarget
+            childNavigationItems {
+              ... on _dcc_CtaModel {
+                label
+                type
+                isExternal
+                link
+              }
+            }
+          }
         }
       }
-     videoUrl
-     videoUrlMobile
-    titleText
-    descriptionText
-    cta{
-      ... on _dcc_CtaModel{
-      type
-      label
-      isExternal
-      link
-      }   
-    }
-    }   
-    ... on _dco_VmiInteractiveVideoModel{
-      videoUrl
-    }
-    ... on _dco_ContentCardGridModel{
-        image{
-    ... on ImageRef{
-      _path
-     type
-     mimeType
-    }
-  }
- featuredCards{
-  ... on _dcc_CardModel{
-    title
-   description{
-    plaintext
-  }
-   cta{
-      ... on _dcc_CtaModel{
-        label
-        type
-        link
-        isExternal
+      sections {
+        ... on _dcc_SpotlightModel {
+          type
+          videoUrl
+          videoUrlMobile
+          spotlightImageDesktop {
+            ... on ImageRef {
+              _authorUrl
+              _publishUrl
+              mimeType
+            }
+          }
+          spotlightImageMobile {
+            ... on ImageRef {
+              _authorUrl
+              _publishUrl
+              mimeType
+            }
+          }
+          descriptionText
+          titleText {
+            html
+          }
+          cta {
+            ... on _dcc_CtaModel {
+              type
+              label
+              isExternal
+              link
+            }
+          }
+        }
+        ... on _dco_VmiInteractiveVideoModel {
+          textSlide
+          gsplatText
+          gsplatSlide {
+            ... on MultimediaRef {
+              _path
+              type
+              format
+            }
+          }
+          mainVideo {
+            ... on MultimediaRef {
+              _path
+              format
+              type
+            }
+          }
+          videoSlides {
+            videoText
+            videoUrl {
+              ... on MultimediaRef {
+                _path
+                type
+                format
+              }
+            }
+          }
+        }
+        ... on _dco_ContentCardGridModel {
+          image {
+            ... on ImageRef {
+              _path
+              type
+              mimeType
+            }
+          }
+          featuredCards {
+            ... on _dcc_CardModel {
+              title
+              description {
+                plaintext
+              }
+              cta {
+                ... on _dcc_CtaModel {
+                  label
+                  type
+                  link
+                  isExternal
+                }
+              }
+            }
+          }
+          title
+          description {
+            plaintext
+          }
+          cta {
+            ... on _dcc_CtaModel {
+              label
+              type
+              link
+              isExternal
+            }
+          }
+        }
+        ... on _dco_MediaStackingCarouselModel {
+          brandLogo {
+            ... on ImageRef {
+              _path
+              type
+              mimeType
+            }
+          }
+          mediaSlides {
+            ... on _dcc_MediaSlideModel {
+              media {
+                ... on MultimediaRef {
+                  _path
+                  type
+                  format
+                }
+                ... on ImageRef {
+                  type
+                  _path
+                  mimeType
+                }
+              }
+              title
+              description {
+                plaintext
+              }
+              cta {
+                ... on _dcc_CtaModel {
+                  label
+                  type
+                  link
+                  isExternal
+                }
+              }
+            }
+          }
+        }
+        ... on _dco_IconFeatureCarouselModel {
+          title
+          description {
+            plaintext
+          }
+          cta {
+            ... on _dcc_CtaModel {
+              label
+              link
+              isExternal
+              type
+            }
+          }
+          featureIconCards {
+            title
+            description {
+              plaintext
+            }
+            icon {
+              ... on ImageRef {
+                _path
+                type
+                mimeType
+              }
+            }
+          }
+        }
+        ... on _dcc_NewsCarouselModel {
+          title
+          description {
+            plaintext
+          }
+          cta {
+            ... on _dcc_CtaModel {
+              label
+              type
+              isExternal
+              link
+            }
+          }
+          featureNewsCards {
+            ... on _dcc_CardWithImageModel {
+              date
+              description {
+                html
+              }
+              image {
+                ... on ImageRef {
+                  _path
+                  type
+                  mimeType
+                }
+              }
+              cta {
+                ... on _dcc_CtaModel {
+                  label
+                  type
+                  isExternal
+                  link
+                }
+              }
+            }
+          }
+        }
+        ... on _dco_MultiVisualCarouselModel {
+          multiVisualFeatureCards {
+            ... on _dco_MultiVisualCarouselFeatureCardModel {
+              title
+              description {
+                html
+              }
+              image {
+                ... on ImageRef {
+                  _authorUrl
+                  _publishUrl
+                  mimeType
+                }
+              }
+              backgroundImage {
+                ... on ImageRef {
+                  _authorUrl
+                  _publishUrl
+                  mimeType
+                }
+              }
+              cta {
+                ... on _dcc_CtaModel {
+                  label
+                  type
+                  isExternal
+                  link
+                }
+              }
+            }
+          }
+        }
+        ... on _dco_CallOutBlocksModel {
+          callOutBlocks {
+            ... on _dcc_CallOutBlockFeatureCardModel {
+              title
+              description {
+                html
+              }
+              cta {
+                ... on _dcc_CtaModel {
+                  label
+                  type
+                  isExternal
+                  link
+                }
+              }
+              image {
+                ... on ImageRef {
+                  _authorUrl
+                  _publishUrl
+                  mimeType
+                }
+              }
+            }
+          }
+        }
+      }
+      path
+      publishedOn
+      expireOn
+      redirectTo
+      language
+      footer {
+        language
+        footerLogo {
+          ... on ImageRef {
+            _path
+          }
+        }
+        footerCopyrightText
+        navigationList {
+          ... on _dco_NavigationMenuItemModel {
+            label
+            link
+            urlTarget
+            childNavigationItems {
+              ... on _dcc_CtaModel {
+                label
+                type
+                isExternal
+                link
+              }
+            }
+          }
+        }
+        emailSubscription {
+          ... on _dcc_EmailSubscriptionModel {
+            title
+            description {
+              plaintext
+            }
+            subscriptionConfirmationMessage
+            emailValidationError
+            placeHolder
+            cta {
+              ... on _dcc_CtaModel {
+                label
+                type
+                isExternal
+                link
+              }
+            }
+          }
+        }
+        footerBottomBanner
       }
     }
   }
 }
-title
-description{
-  plaintext
-}
-cta{
-      ... on _dcc_CtaModel{
-        label
-        type
-        link
-        isExternal
-      }
-    }
-    }
-    ... on _dco_MediaStackingCarouselModel{
-      brandLogo{
-    ... on ImageRef{
-      _path
-     type
-     mimeType
-    }
-  }
- mediaSlides{
-  ... on _dcc_MediaSlideModel{
-    media{
-      ... on MultimediaRef{
-        _path
-        type
-        format
-      }  
-      ... on ImageRef{
-        type
-       _path
-       mimeType
-      }
-    }
-    title
-   description{
-    plaintext
-  }
-   cta{
-      ... on _dcc_CtaModel{
-        label
-        type
-        link
-        isExternal
-      }
-    }
-  }
-}
-    }
-    ... on _dco_IconFeatureCarouselModel{
-      title
-      description{
-        plaintext
-      }
-      cta{
-      ... on _dcc_CtaModel{
-        label
-        link
-        isExternal
-        type
-      }       
-      }
-     featureIconCards{
-      title
-      description{
-        plaintext
-      }
-      icon{
-        ... on ImageRef{
-          _path
-          type
-          mimeType
-        }
-      }
-    }
-    }
-  }
-  path
-  publishedOn
-  expireOn
-  redirectTo
-  language
-  footer{
-    language
-    footerLogo{
-      ... on ImageRef{
-        _path
-      }
-    }
-    footerCopyrightText
-    navigationList{
-     ... on _dco_NavigationMenuItemModel{
-      mobileLabel
-      label
-      link
-      urlTarget
-      childNavigationItems{
-        ... on _dcc_CtaModel{
-          label
-          type
-          isExternal
-          link
-        }       
-      }
-    }
-    }
-    emailSubscription{
-      ... on _dcc_EmailSubscriptionModel{
-        title
-        description{
-          plaintext
-        }
-        subscriptionConfirmationMessage
-        emailValidationError
-        placeHolder
-       cta{
-       ... on _dcc_CtaModel{
-          label
-          type
-          isExternal
-          link
-        
-        } 
-       }
-      }
-    }
-   footerBottomBanner
-  }
-  }}}
- 

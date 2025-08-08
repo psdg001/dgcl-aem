@@ -4,15 +4,10 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2025-07-30T10:18:58.717Z"
-        cq:lastModifiedBy="afrin.shaik"
-        cq:lastReplicated="{Date}2025-08-05T10:50:25.275Z"
-        cq:lastReplicatedBy="afrin.shaik"
-        cq:lastReplicationAction="Activate"
-        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/-dco--media-stacking-carousel/jcr:content/model"
+        cq:scaffolding="/conf/diriyah/settings/dam/cfm/models/-dco--call-out-blocks/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
-        jcr:title="\[DCO] Media Stacking Carousel"
+        jcr:title="\[DCO] Call Out Blocks"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default"
         status="enabled">
@@ -27,41 +22,23 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
-                    jcr:lastModified="{Date}2025-07-30T10:18:58.717Z"
-                    jcr:lastModifiedBy="afrin.shaik"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
                         maxGeneratedOrder="20">
-                        <_x0031_753790264304
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
-                            fieldLabel="Brand Logo"
-                            filter="hierarchy"
-                            listOrder="8"
-                            metaType="reference"
-                            name="brandLogo"
-                            nameSuffix="contentReference"
-                            renderReadOnly="false"
-                            rootPath="/content/dam/diriyah/assets/diriyah-company"
-                            showEmptyInReadOnly="true"
-                            showThumbnail="false"
-                            valueType="string/reference">
-                            <granite:data
-                                jcr:primaryType="nt:unstructured"
-                                thumbnail-validation="cfm.validation.thumbnail.show"/>
-                        </_x0031_753790264304>
-                        <_x0031_753790326775
+                        <_x0031_754312206838
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/models/editor/components/fragmentreference/multifield"
                             allowNew="{Boolean}true"
-                            fieldLabel="Media Slides"
+                            emptyText="Author minimum 2 Feature Cards"
+                            fieldDescription="Author minimum 2 Feature Cards"
+                            fieldLabel="Call out blocks"
                             filter="hierarchy"
-                            fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-media-slide"
+                            fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dco-call-out-block"
                             listOrder="9"
                             metaType="fragment-reference"
-                            name="mediaSlides"
+                            name="callOutBlocks"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
                             required="on"
@@ -70,17 +47,18 @@
                             <field
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
-                                fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dcc-media-slide"
-                                name="mediaSlides"
+                                emptyText="Author minimum 2 Feature Cards"
+                                fragmentmodelreference="/conf/diriyah/settings/dam/cfm/models/dco-call-out-block"
+                                name="callOutBlocks"
                                 renderReadOnly="false">
                                 <granite:data
                                     jcr:primaryType="nt:unstructured"
-                                    mvmaxitems="3"/>
+                                    mvmaxitems="2"/>
                             </field>
                             <granite:data
                                 jcr:primaryType="nt:unstructured"
-                                mvmaxitems="3"/>
-                        </_x0031_753790326775>
+                                mvmaxitems="2"/>
+                        </_x0031_754312206838>
                     </items>
                 </content>
             </cq:dialog>
